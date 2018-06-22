@@ -1,0 +1,61 @@
+masterpublications table
+where we hold all of the pubs with their names and the link to the actual file, all of that.
+
+  fields
+  string :title
+  string :description
+  string :maintenance_level
+  string :revision
+
+Pub pieces table
+
+  #a count of excerpts that include the search term, grouped by publication_id
+  e = Excerpt.includes(:publication).where("text LIKE '%IETM%'").group("publication_title").count
+
+  # returns an array of publication title + count
+  results = e.keys.map do |f| {title: Publication.find(f).title, count: e[f]} end
+
+  # I feel like I can do better than this... but it's progress.
+  # alternatively, fill an object with the results where the keys are the publication title
+  results = {}
+  e = Excerpt.includes(:publication).where("text LIKE '%IETM%'").group("publication_title")
+
+  e.each do |f| 
+    title=f.publication.title
+    page=f.page
+    blurb=f.text.match /\b.{0,20} + search_term + .{0,20}\b/g
+    results[title] = results[title] ? results[title].push(f) : [].push(f) 
+  end
+
+  finds matches of the search term in a body of text and grabs the surrounding text
+  /\b.{0,20}fill.{0,18}\b/
+
+  in ruby use "scan" instead of "match" to do a global match.
+
+  then we can parse this to JSON and return that in the API and do what we will with it.
+
+  This table holds chunks of publications that are stored in the master record table. It allows me to
+  search for content in documents. 
+
+  The idea is that we search the table for a phrase, then return the a collection of data that looks like
+
+  publication
+    hit (w/page number and text around hit)
+    hit
+    hit
+
+  Because that means we're going to be building a pretty large selection it may mean that we want to limit
+  the number of pubs we're finding hits in pretty quickly. If the user searchs for "a", for example,
+  that could cripple the database.
+
+  master_record_id
+  page_number
+  text (:indexed)
+
+Part number table
+
+  This table will hold a list of part numbers along with the associated master_record
+
+  part_number (:indexed)
+  master_record_id
+

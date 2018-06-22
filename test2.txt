@@ -1,0 +1,4827 @@
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+TECHNICAL MANUAL
+
+CLEANING AND CORROSION CONTROL
+
+VOLUME I
+CORROSION PROGRAM AND
+
+CORROSION THEORY
+
+01 MARCH 2005
+
+This publication supersedes NAVAIR 01-1A-509/TM 1-1500-344-23, dated 1 May 2001
+and NAVAIR 16-1-540/TM 1-1500-343-23/TO 1-1-689, dated 1 Sep 2000.
+
+DISTRIBUTION STATEMENT A. Approved for public release; distribution is unlimited.
+
+DESTRUCTION NOTICE  -  For unclassified, limited documents, destroy by any method that will prevent
+disclosure of contents or reconstruction of the document.
+
+PUBLISHED BY DIRECTION OF COMMANDER, NAVAL AIR SYSTEMS COMMAND
+
+0801LP1043459
+
+NATEC ELECTRONIC MANUAL
+
+
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+ii
+
+01 March 2005
+
+LIST OF EFFECTIVE PAGES
+Dates of issue for original and changed pages are:
+
+Original ........................ 0 ......................... 01 Mar 2005
+Change ....................... x ........................ xx XXX 199X
+
+Insert latest changed pages; dispose of superseded pages in accordance with applicable regulations.
+
+NOTE: On a changed page, the portion of the text affected by the latest change is indicated be a vertical line, or
+other change symbol in the outer margin of the page. Change in illustrations are indicated by miniature pointing
+hands. Changes to wiring diagrams are indicated by shaded areas.
+
+Total number of pages in this manual is 52, consisting of the following:
+
+Page *Change Page *Change Page *Change
+No. No. No. No. No. No.
+
+Change ....................... 0 ......................... 15 Sep 1993
+Change ....................... x ........................ xx XXX 199X
+
+A Change X
+
+*Zero in this column indicates an original page.
+
+Title ........................................ 0
+A ............................................. 0
+i-ii ........................................... 0
+TPDR-1 .................................. 0
+TPDR-2 Blank ........................ 0
+1-1 - 1-3 ................................. 0
+1-4 Blank ................................ 0
+2-1 - 2-4 ................................. 0
+3-1 - 3-25 ............................... 0
+3-26 Blank .............................. 0
+Glossary-1 - Glossary-8 ......... 0
+Index-1 - Index-3 .................... 0
+Index-4 Blank ......................... 0
+
+
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+i
+
+01 March 2005
+
+LIST OF ILLUSTRATIONS ......................................... ii
+LIST OF TABLES ........................................................ ii
+LIST OF TECHNICAL PUBLICATIONS
+
+DEFICIANCE REPORTS (TPDR)
+INCORPORATED ............................TPDR-1
+
+1 INTRODUCTION
+
+1-1. Overview ......................................... 1-1
+1-2. Purpose ........................................... 1-1
+1-3. Scope .............................................. 1-1
+1-4. Arrangement of Manual .................. 1-1
+1-5. Related Publications ....................... 1-2
+1-6. Usage and Coflicts .......................... 1-2
+1-7 Reporting Errors and Improvement
+
+Recommendations ........................ 1-2
+1-8. Manual Change Procedures ........... 1-3
+1-9. Requisitioning and Automatic
+
+Distribution ................................... 1-3
+
+2 PREVENTATIVE MAINTENANCE
+PROGRAM
+
+2-1. Overview ......................................... 2-1
+2-2. Corrosion Prevention Philosophy ... 2-1
+2-3. Preventive  Maintenance ................ 2-1
+2-4. Aircraft Preventive
+
+Maintenance Program .................. 2-1
+2-5. Avionics Preventive
+
+Maintenance Program .................. 2-2
+
+2-6. Corrosion Control Program ............. 2-2
+2-7. Corrosion-Related Failure
+
+Data Feedback ............................. 2-3
+2-8. Safety .............................................. 2-4
+2-9. Materials ......................................... 2-4
+
+3 CORROSION THEORY
+
+3-1. Overview ......................................... 3-1
+3-2. Purpose ........................................... 3-1
+3-3. Scope .............................................. 3-1
+3-4. Definition of Corrosion .................... 3-1
+3-5. Chemical Definitions ....................... 3-1
+3-6. Theory of Corrosion ........................ 3-1
+3-7. Development of Corrosion .............. 3-2
+3-8. Factors Influencing Corrosion ......... 3-3
+3-9. Types of Corrosion .......................... 3-6
+3-10. Metals Affected by Corrosion ........ 3-11
+3-11. Degradation of Non-Metals ........... 3-16
+3-12. Effects of Environment on
+
+Corrosion .................................... 3-18
+3-13. Natural Environment ..................... 3-19
+3-14. Biological Corrosion ...................... 3-21
+3-15. Man-Made Environments .............. 3-23
+
+GLOSSARY ................................................ Glossary-1
+ALPHABETICAL INDEX .................................. Index-1
+
+TABLE OF CONTENTS
+
+Chapter Page Chapter Page
+
+
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+ii
+
+01 March 2005
+
+LIST OF TABLES
+
+Table Title Page Table Title Page
+
+1-1. Outline of Manual - All Volumes .................. 1-1
+1-2. Outline of Volume I ....................................... 1-2
+
+3-1. Effects of Corrosion on Metals .................... 3-13
+3-2. Effects of Deterioration on NonMetals ........ 3-17
+
+Figure Title Page Figure Title Page
+
+LIST OF ILLUSTRATIONS
+
+2-1. Corrosion Prevention Program ..................... 2-1
+2-2. Basic Maintenance Functions ....................... 2-3
+
+3-1. Simplified Corrosion Cell ............................... 3-2
+3-2. Elimination of Corrosion by Application
+
+of an Organic Film to a Metal Surface ....... 3-2
+3-3. Effect of Sea Water on
+
+Galvanic Corrosion .................................... 3-2
+3-4. Galvanic Series of Metals and
+
+Alloys in Sea Water ................................... 3-4
+3-5. Galvanic Corrosion in a Flashlight Battery ... 3-5
+3-6. Effect of Area Relationship in
+
+Dissimilar Metal Contacts .......................... 3-5
+3-7. Surface Corrosion on Frequency Test Set ... 3-6
+3-8. Galvanic Corrosion of Magnesium
+
+Adjacent to a Steel Fastener ..................... 3-6
+3-9. Variations in the Cross-Sectional
+
+Shape of Corrosion Pits ............................ 3-6
+3-10. Pitting of an Aluminum Wing Assembly ........ 3-7
+3-11. Cross-Section of 7075-T6 Aluminum Alloy ... 3-7
+3-12. Scanning Electron Micrograph of a
+
+Corroding Aluminum Surface .................... 3-7
+
+3-13. Intergranular Corrosion of
+7075-T6 Aluminum Adjacent to
+Steel Fastener ........................................... 3-8
+
+3-14. Extreme Example of Exfoliation at
+Edge of Sheet ............................................ 3-8
+
+3-15. Exfoliation Adjacent to Fasteners ................. 3-8
+3-16. Crevice Corrosion Mechanisms .................... 3-9
+3-17. Filiform Corrosion Found Under Paint
+
+Coating on a Magnesium Panel ................ 3-9
+3-18. Schematic of the Development of Filiform
+
+Corrosion on an Aluminum Alloy ............... 3-9
+3-19. Cracking (Typical of Stress Corrosion or
+
+Corrosion Fatigue) ................................... 3-10
+3-20. Fretting Corrosion ....................................... 3-11
+3-21. Hot Corrosion on Fasteners ........................ 3-12
+3-22. Hot Corrosion on Engine Components ....... 3-12
+3-23. Aluminum Surface Corrosion Products ....... 3-13
+3-24. Magnesium Corrosion Products .................. 3-13
+3-25. Steel Corrosion Products ............................ 3-14
+3-26. Color Changes in Titanium Due to
+
+Heating .................................................... 3-14
+3-27. Cadmium Plated Surface Conditions .......... 3-15
+3-28. Failed Chromium Plate ............................... 3-15
+3-29. Corroded Circuit Card ................................. 3-16
+3-30. Biological Growth on Helicopter Wall .......... 3-21
+
+3-3. Effects of Moisture and Fungi on Various
+Materials .................................................. 3-22
+
+3-4. Effects of Airframe Flluid Intrusion .............. 3-24
+
+
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+iii
+
+01 March 2005
+
+NONE
+
+Report Control Number (RCN) Location
+
+alskjalkj
+0000/00000 Pg x-xx
+
+0000/00000 Pg x-xx
+
+alskjalkj
+0000/00000 Pg x-xx
+
+alskjalkj
+0000/00000 Pg x-xx
+
+alskjalkj
+0000/00000 Pg x-xx
+
+alskjalkj
+0000/00000 Pg x-xx
+
+alskjalkj
+0000/00000 Pg x-xx
+
+alskjalkj
+0000/00000 Pg x-xx
+
+alskjalkj
+0000/00000 Pg x-xx
+
+Report Control Number (RCN) Location
+
+AIMD NAS PENSACOLA, FL
+52814-2000-0022 Pg 9-2
+
+alskjalkj
+0000/00000 Pg x-xx
+
+alskjalkj
+0000/00000 Pg x-xx
+
+alskjalkj
+0000/00000 Pg x-xx
+
+alskjalkj
+0000/00000 Pg x-xx
+
+alskjalkj
+0000/00000 Pg x-xx
+
+alskjalkj
+0000/00000 Pg x-xx
+
+alskjalkj
+0000/00000 Pg x-xx
+
+LIST OF TECHNICAL PUBLICATIONS DEFICIENCY REPORTS INCORPORATED
+
+TPDR-1/(TPDR-2 Blank)
+
+
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+iv
+
+01 March 2005
+
+TPDR-2
+
+THIS PAGE LEFT INTENTIONALLY BLANK
+
+
+
+1-1
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+CHAPTER 1
+INTRODUCTION
+
+1-1. OVERVIEW. Prevention and repair of corrosion
+damage to aircraft and avionic systems continues to be
+an ever increasing cost and safety burden for military
+aircraft. Equipment is routinely exposed to changes in
+temperature and pressure, varying humidity levels,
+dust, dirt, ultraviolet light, aircraft fluids, and environments
+that promote corrosion. Increasing environmental and
+safety restrictions, which limit traditional corrosion control
+materials, are also a significant factor in the safe and
+economic operation of aircraft and avionics.
+
+1-1.1. The Cleaning and Corrosion Control manual
+was established jointly by the Navy, Air Force, and Army
+as a combined effort to consolidate and coordinate
+corrosion control best practices for aircraft and avionics.
+
+1-1.2. This volumized set of corrosion manuals
+combines and replaces the former Aircraft Weapons
+Systems Cleaning and Corrosion Control (NAVAIR 01-
+1A-509/TM 1-1500-344-23) and Avionics Cleaning and
+Corrosion Prevention/Control (NAVAIR 16-1-540/TO
+1-1-689/TM 1-1500-343-23) manuals.
+
+1-2. PURPOSE. The purpose of this manual is to
+provide information on materials and procedures to
+
+prevent, control, and repair corrosion damage to aircraft
+and avionics on land or at sea.
+
+1-3. SCOPE. The material in this manual contains
+basic corrosion prevention and corrective maintenance
+information to be used at Organizational, Intermediate,
+and Depot levels.
+
+1-4. ARRANGEMENT OF MANUAL.
+
+1-4.1. OVERVIEW OF ALL VOLUMES. The NAVAIR
+01-1A-509/TM 1-1500-343-23/TO 1-1-689 series of
+manuals is arranged as shown in Table 1-1.
+
+1-4.1.1. A complete set of manuals to perform aircraft
+cleaning and corrosion control functions consists of
+Volumes I, II, and IV (replaces NAVAIR 01-1A-509/
+TM 1-1500-344-23).
+
+1-4.1.2. A complete set of manuals to perform avionics
+and electronics cleaning and corrosion control functions
+consists of Volumes I, III, and IV (Navy and Army) or
+Volumes I, II I ,  and V (Air Force) (replaces
+NAVAIR 16-1-540/TM 1-1500-343-23/TO 1-1-689).
+
+This volume was prepared under the technical cognizance of the
+Materials Engineering Division, NAVAIR North Island, San Diego, California.
+
+Table 1-1. Outline of Manual - All Volumes
+EMULOV ELTIT NOITPIRCSEDFEIRB
+
+I yroehTnoisorroCdnamargorPnoisorroC snialpxednanoitamrofnimargorpllarevosedivorpemulovsihT
+otwohdna,ekatnactismrofeht,sruccotiyhw,sinoisorroctahw
+
+.tiezingocer
+
+II tfarcriA serudecorplortnocnoisorrocdnagninaelcsedivorpemulovsihT
+.tfarcriarof
+
+III scinortcelEdnascinoivA serudecorplortnocnoisorrocdnagninaelcsedivorpemulovsihT
+.scinortcelednascinoivarof
+
+VI tnempiuqEdnaslairetaMelbamusnoC
+scinoivAdnatfarcriArof
+
+gninaelcroftnempiuqednaslairetamdevorppastsilemulovsihT
+.noitamrofnigniredrosedivorpdna,lortnocnoisorrocdna
+
+V tnempiuqEdnaslairetaMelbamusnoC
+scinoivArof
+
+stsiltI.ecroFriAehtfotseuqerehttaderaperpsawemulovsihT
+noisorrocdnagninaelcroftnempiuqednaslairetamdevorppa
+
+.ylnoscinoivarof,noitamrofnigniredrosedivorpdna,lortnoc
+
+
+
+1-2
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+1-4.2. ARRANGEMENT OF VOLUME I. Volume I
+consists of three chapters and a glossary, arranged as
+shown in Table 1-2.
+
+1-5. RELATED PUBLICATIONS. A listing of related
+publications is provided in Chapter 1 of each volume of
+this manual, as applicable.
+
+1-6. USAGE AND CONFLICTS.
+
+1-6.1. Supervisory and maintenance personnel shall
+use this manual as a guide for all corrosion control and
+maintenance efforts. Contractors who maintain and
+repair corrosion for military aircraft and avionics shall
+also comply with the requirements of this manual.
+
+1-6.2. This manual shall be used in conjunction with
+and in support of the appropriate Army Technical
+Manuals (TMs), Technical Bulletins (TBs), Department
+of the Army Pamphlets (DA PAMs), Navy Maintenance
+Instruction Manuals (MIMs), Navy Structural Repair
+Manuals (SRMs), Maintenance Requirement Cards
+(MRCs), or Air Force Technical Orders (TOs).
+
+1-6.2.1. In the case of a conflict between this manual
+and other Navy manuals, this manual shall take
+precedence; however, maintenance activities shall
+contact the appropriate Cognizant Field Activity (CFA)/
+Fleet Support Team (FST) for immediate resolution of
+the conflict.
+
+1-6.2.2. The Army and Air Force specific systems/
+components manuals shall take precedence over this
+manual.
+
+1-6.3. WORDING. The following definitions are adhered
+to in preparing this manual.
+
+1-6.3.1. Shall is used when a procedure is mandatory.
+
+1-6.3.2. Should is used when a procedure is
+recommended but not mandatory.
+
+1-6.3.3. Will indicates future action but does not indicate
+a mandatory procedure.
+
+1-6.3.4. May is used only when a procedure is optional.
+
+1-6.4. SYMBOLS (WARNINGS, CAUTIONS and
+NOTES). The following definitions apply to WARNINGS,
+CAUTIONS and NOTES found throughout the manual.
+
+1-6.4.1. WARNING. An operation or maintenance
+procedure, practice, condition, or statement, which if
+not strictly observed, could result in injury to or death of
+personnel, or long term health hazards to personnel.
+
+1-6.4.2. CAUTION. An operating or maintenance
+procedure, practice, condition, or statement, which if
+not strictly observed, could result in damage/destruction
+of equipment or loss of mission effectiveness.
+
+1-6.4.3. NOTE. An operating procedure, practice, or
+condition which is essential to emphasize.
+
+1-6.5. SERVICE DESIGNATIONS. Since this is a tri-
+service manual, not all sections apply to all services.
+Information within the text that does not apply to all three
+services is designated after the paragraph number as
+follows: (N) NAVY ONLY, (A) ARMY ONLY, or (AF) AIR
+FORCE ONLY. Large sections that are service specific
+are included as appendices in the appropriate volume.
+
+1-7. REPORTING ERRORS AND IMPROVEMENT
+RECOMMENDATIONS.
+
+1-7.1. GENERAL. All activities using this manual are
+invited to submit recommended changes, additions, or
+deletions.
+
+Table 1-2. Outline of Volume I
+RETPAHC ELTIT NOITPIRCSEDFEIRB
+
+1 noitcudortnI rofytilibisnopserehtdna,egasuetairporppa,esoprupehtsnialpxeretpahcsihT
+emulovsihtfoeniltuodnaepocsehtstneserpnoitcessiht,oslA.launamsihtotsegnahc
+
+.launamdezimuloveritneehtfoweivrevonadna,launamehtfo
+
+2 smargorPnoisorroC margorpecnanetniamevitneverpdnalortnocnoisorrocehtseniltuoretpahcsihT
+.noitamrofniytefaslarenegsedivorpdna,stnemeriuqer
+
+3 yroehTnoisorroC ,ekatnactismrofsuoiraveht,sruccotiyhw,sinoisorroctahwsnialpxeretpahcsihT
+.tiezingocerotwohdna
+
+yrassolG dnatfarcriagnimrofreplennosrepybdesuylnommocsmretsenifedyrassolgehT
+.lortnocnoisorrocdnagninaelcscinoiva
+
+
+
+1-3
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+1-7.2. SPECIFIC REPORTING REQUIREMENTS.
+Recommended changes, additions, or deletions shall
+be reported as follows:
+
+1-7.2.1. Navy personnel should submit recommended
+changes to the appropriate technical services facility
+using the reporting system outlined in OPNAVINST
+4790.2.
+
+1-7.2.2. Air Force personnel should refer to TO 00-5-1
+to report changes.
+
+1-7.2.3. Army personnel should submit completed DA
+2028/2028-2 forms to Commander, U.S. Army Aviation
+and Missile Command, ATTN: AMSAM-MMC-MA-NP,
+Redstone Arsenal, AL 35898-5220. Changes may also
+be submitted electronically via the Army website,
+https://amcom2028.redstone.army.mil, or via email to:
+2028@redstpme/army.mil.
+
+1-8. MANUAL CHANGE PROCEDURES.
+
+1-8.1. RESPONSIBILITY. This manual is a tri-service
+document, coordinated by the Materials Engineering
+Division, Naval Air Depot North Island, Code 4.9.7,
+San Diego, CA. The following activities are responsible
+for maintaining this document: the Naval Air Systems
+Command, the Air Force Corrosion Program Office,
+and the U.S. Army Aviation and Missile Command. As
+necessary, representatives from these activities shall
+meet to review proposed engineering and logistical
+changes to this manual. Changes are approved by all
+services, except for service-specific information.
+
+1-8.2. PROCEDURES. The Navy is the lead service
+for publication of this manual; therefore, the following
+Navy publication change procedures apply:
+
+1-8.2.1. Revisions. Volumes will be updated periodically
+by the issuance of a revision, which is a complete
+replacement of all pages with all change information
+incorporated.
+
+1-8.2.2. Routine Changes. Between revisions, routine
+changes may be issued in the form of corrected pages
+
+to a portion of the existing manual. They consist of
+replacement change pages for that section of the manual
+affected by the change.
+
+1-8.2.3. Rapid Action Changes. Changes may be
+issued as a formal Rapid Action Change (RAC) or an
+Interim Rapid Action Change (IRAC). IRACs are issued
+as naval messages to expedite the release of urgent
+and essential operational and maintenance change
+information. Army and Air Force program managers are
+responsible for retransmittal of IRACs to the appropriate
+service addressees.
+
+1-9. REQUISITIONING AND AUTOMATIC
+DISTRIBUTION.
+
+1-9.1. Procedures to be used by Naval activities and
+other Department of Defense activities requiring NAVAIR
+technical manuals are defined in NAVAIR 00-25-100.
+
+1-9.2. To automatically receive future changes and
+revisions to NAVAIR technical manuals, an activity
+must be established on the Automatic Distribution
+Requirements List (ADRL) maintained by the Naval Air
+Technical Data and Engineering Service Command
+(NATEC). To become established on the ADRL, notify
+your activity central technical publications librarian. If
+your activity does not have a library, you may establish
+your automatic distribution requirements by contacting
+the Commanding Officer, NATEC, Naval Air Station
+North Island, P.O. Box 357031, Bldg. 90 Distribution,
+San Diego, CA 92135-7031. Annual reconfirmation of
+these requirements is necessary to remain on automatic
+distribution. Use your NATEC assigned account number
+whenever referring to automatic distr ibution
+requirements.
+
+1-9.3. If additional or replacement copies of this manual
+are required with no attendant changes in the ADRL,
+they may be ordered by submitting requisitions to the
+Commanding Officer, Naval Supply Systems Command,
+Naval Logistics Library, 5801 Tabor Avenue,
+Philadelphia, PA 19120-5099.
+
+1-3/(1-4 Blank)
+
+
+
+1-4
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+THIS PAGE LEFT INTENTIONALLY BLANK
+
+
+
+2-1
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+CHAPTER 2
+PREVENTIVE MAINTENANCE PROGRAM
+
+2-1. OVERVIEW. Investigations during the past ten
+years have identified corrosion as a major factor in
+electronics failure in the field. As much as 30% to 40%
+of military avionic failures are due to the corrosion
+process. This is despite steady improvements in reliability
+of avionic systems fielded to date and outlines the need
+for an effective preventive maintenance program.
+
+2-2. CORROSION PREVENTION PHILOSOPHY.
+Corrosion and environmental conditions are natural
+phenomena that adversely affect equipment in field
+service. Although never totally eliminated, the problems
+these factors cause can be minimized so that they are
+less severe and better controlled. This can be achieved
+by understanding equipment failure mechanisms and
+development/utilization of corrosion control technology.
+
+2-2.1. As a general rule, maintenance personnel should
+assume corrosion is ongoing, regardless of visible
+physical evidence. The aim of corrosion prevention is to
+enable systems to perform satisfactorily for a specified
+time period. In other words, maintenance efforts should
+allow equipment to approach its maximum lifetime.
+
+2-2.2. The general workflow diagram, in Figure 2-1,
+defines procedures followed to implement a corrosion
+preventive maintenance program. This process is
+designed to indicate the sequence of events needed to
+implement and maintain an effective corrosion
+prevention and control program.
+
+2-3. PREVENTIVE MAINTENANCE. The two most
+important factors in preventing corrosion, and the only
+ones which can be controlled by field personnel, are the
+removal of the electrolyte and the application of protective
+coatings. Since the extent of corrosion depends on the
+length of time electrolytes are in contact with metals,
+aircraft corrosion can be minimized by frequent washing.
+If noncorrosive cleaners are used, the more frequently
+a surface is cleaned in a corrosive environment the less
+the possibility of corrosive attack. In addition, by
+maintaining chemical treatments and paint finishes in
+good condition, corrosion can be minimized. The
+degradation of non-metallic materials can be minimized
+by avoiding the use of unauthorized maintenance
+chemicals and procedures. In addition, when repair or
+replacement of non-metallic materials is required, only
+approved materials shall be used. Dedication to proper
+preventive maintenance practices maximizes equipment
+reliability.
+
+2-4. AIRCRAFT PREVENTIVE MAINTENANCE
+PROGRAM.
+
+2-4.1. The prevention and control of corrosion on aircraft
+and related equipment is a command responsibility.
+Each command must place special emphasis on the
+importance of the corrosion control program and lend its
+full support to ensure that corrosion prevention and
+control receives sufficient priority to be accomplished
+along with other required maintenance.
+
+Figure 2-1. Corrosion Prevention Program
+General Workflow Diagram
+
+Train Personnel to Detect, Identify, 
+Clean, Preserve, Treat 
+
+& Prevent Corrosion
+
+(Re)Emphasize the Concept of All Hands
+Responsibility for Corrosion Control
+
+Conduct Required Maintenance
+Corrosion Inspections
+
+Report Any 
+Material/Design Deficiencies
+
+Treat Corrosion Promptly After 
+Detection Using the Approved 
+
+Materials, Equipment & Techniques
+
+Clean, Preserve, & Lubricate
+Equipment at Prescribed Intervals
+
+Maintain Accurate 
+Maintenance Records
+
+Corrosion
+Damage  Present
+
+?
+NO
+
+YES
+
+
+
+2-2
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+2-4.2. Aluminum and magnesium alloys found in
+aviation equipment will normally begin to corrode if salt
+deposits, other corrosive soils, or electrolytes are allowed
+to remain. In order to prevent corrosion, a constant
+cycle of cleaning, inspection, operational preservation,
+and lubrication must be followed. Prompt detection and
+removal of corrosion will limit the extent of damage to
+aircraft components. An effective preventive
+maintenance program requires cleaning, lubrication
+and preservation, as well as corrosion removal, paint
+removal, surface treatment, sealing, and painting. A
+disciplined preventive maintenance program includes:
+
+a. Regularly scheduled aircraft washing as specified
+by parent service organization directives;
+
+b. Using clean water with low chloride content for
+aircraft washing and rinsing (chloride content should be
+less than 400 parts per million, approximately the same
+limit as that for potable water);
+
+c. Regularly scheduled cleaning or wipe down of all
+exposed unpainted surfaces, such as landing gear
+struts and actuating rods of hydraulic cylinders as
+specified by parent service organization directives, with
+a compatible fluid or lubricant;
+
+d. Keeping low-point drains open;
+
+e. Inspection, removal, and reapplication of corrosion
+preventative compounds (CPCs) on a scheduled basis;
+
+f. Earliest detection and repair of damaged
+protective coatings; and
+
+g. Using padded panel racks to store panels/parts
+for aircraft and equipment during maintenance and
+using protective measures to prevent abrasions/
+scratches resulting from placement of parts, tools, or
+tool boxes on wings, fuselage or other aircraft surfaces.
+
+2-5. AVIONICS PREVENTIVE MAINTENANCE
+PROGRAM.
+
+2-5.1. PROGRAM REQUIREMENTS. Successful
+avionic cleaning and corrosion prevention/control efforts
+depend on a coordinated, comprehensive preventive
+maintenance program. Everyone involved in
+maintenance, repair, and operation of avionic systems
+must be concerned with corrosion, cleaning, inspection,
+prevention, and treatment. Specifically, avionic corrosion
+prevention/control is everyone’s responsibility. Each
+command must place special emphasis on the corrosion
+
+control program and lend their full support. This ensures
+the program receives sufficient priority to be
+accomplished along with other required maintenance.
+The goal of a preventive maintenance program is to halt
+corrosion before significant decline in equipment
+performance occurs. As such, it is important to recognize
+the difference between prevention of corrosion and
+repair of damage caused by corrosion. A preventive
+maintenance program at the Organizational/Unit and
+Intermediate Maintenance Activities should:
+
+a. Reduce the maintenance time spent repairing
+corrosion damage.
+
+b. Improve avionic system reliability, durability, and
+service life.
+
+c. Make the military avionics community aware of
+the extent of the problem.
+
+d. Report any deficiencies with materials and
+processes associated with corrosion control.
+
+2-5.2. APPLICABLE GUIDELINES. All activities
+responsible for the maintenance of military aircraft and
+avionic systems shall establish a corrosion prevention/
+control program. The type of program depends on the
+conditions or environments to which the aircraft/avionic
+systems are exposed. Those aircraft and avionic systems
+exposed to salt-air and tropical environments require
+the most stringent corrosion prevention and control
+programs.
+
+2-5.3. MAINTENANCE FUNCTIONS. Experience has
+shown that all activities have a corrosion problem. This
+is regardless of whether the equipment is an installed
+avionic system, ground support equipment, or missile
+system. Accordingly, corrosion control efforts by all
+hands is mandatory. This must be a day-to-day
+requirement to prevent corrosion before it starts.
+Figure 2-2 depicts the basic maintenance functions.
+
+2-6. CORROSION CONTROL PROGRAM. All
+activities responsible for aircraft maintenance shall
+establish corrosion control programs as required by the
+parent service organization. This program shall be
+structured as required by OPNAVINST 4790.2 (Navy),
+TO 00-20-1 (Air Force), or AR 750-59 (Army) and
+ensure that personnel receive hazardous material/waste
+handlers training. The type of program depends upon
+the environment to which the aircraft may be exposed.
+At sea, where conditions are normally the most severe,
+aircraft are exposed to salt spray, ship stack gases, and
+
+
+
+2-3
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+aircraft engine exhausts. Land-based aircraft may be
+exposed to industrial gases, salts, rain, mud, and, near
+salt water, mists containing sea salts. A comprehensive
+corrosion control program shall consist of either a
+Corrosion Control Work Center or a Corrosion Control
+Team with personnel trained in the prevention, early
+detection, reporting, and repair of corrosion damage.
+Such a program requires a dedicated effort by all
+maintenance personnel to prevent corrosion before it
+starts. These efforts will improve the operational
+readiness of equipment and minimize costly repairs.
+
+2-6.1. TRAINING. Personnel performing maintenance
+on aircraft shall be trained in basic corrosion control
+skills as established by the parent service organization.
+Personnel shall be fully aware of the reasons for the
+corrosion control program. Without such training and
+understanding, further damage or additional problems
+may result.
+
+2-6.2. TRAINING AND QUALIFICATION REQUIRE-
+MENTS. Personnel responsible for corrosion control
+maintenance and treatment shall receive the following
+training.
+
+a. Supervisors and corrosion control personnel shall
+attend basic corrosion control courses established by
+the parent service organization.
+
+b. Cleaning and repair personnel shall be trained in
+inspection, identification, cleaning, treatment,
+preservation, lubrication, hazardous material handling/
+hazardous waste disposal, and proper documentation
+reporting.
+
+c. Supervisors shall ensure maximum use of in-
+service and on-the-job-training.
+
+2-6.3. MAINTENANCE. An effective corrosion control
+program shall include thorough cleaning, inspection,
+preservation, and lubrication, at specified intervals, in
+accordance with Volumes II and III of this manual.
+Check for corrosion damage and integrity of protective
+finishes during all scheduled and unscheduled
+maintenance. Early detection and repair of corrosion
+will limit further damage. When corrosion is discovered,
+treat corrosion as prescribed in Volumes II and III as
+soon as possible and use only approved materials,
+equipment, and techniques. Only affected areas shall
+be repaired. All maintenance personnel shall report
+corrosion promptly, in accordance with directives
+established by the parent service organization.
+
+2-7. CORROSION-RELATED FAILURE DATA
+FEEDBACK.
+
+2-7.1. Since corrosion prevention and control for aircraft
+and avionics is a continuing concern, it is vitally important
+that corrosion problems are properly reported. Problems
+can be corrected and improvements made to prevent
+reoccurrence in future equipment design. Identification
+of the specific causes and extent of corrosion problems
+is essential. Improved equipment performance and
+maintenance assistance (personnel, equipment,
+materials, and procedures) are dependent on this data.
+
+Establish Maintenance Requirements
+for Corrosion Control
+
+Establish Requirements
+to Inspect for Corrosion Damage
+
+Aquire Corrosion Control Equipment 
+& Consumable Supplies
+
+Establish Requirements for 
+Reporting Corrosion Damage
+
+Develop & Maintain Maintenance 
+Instructions Outlining 
+
+Corrosion Control Program
+
+Develop Program to Satisfy Specific
+Inspection, Cleaning, Treatment,
+
+Preservation & Lubrication Requirements
+
+Develop Cleaning & Corrosion
+Training Program
+
+Ensure Proper Training of Personnel
+in Corrosion Identification & Control
+
+Conduct Required 
+Corrosion Inspections
+
+Ensure Cleaning, Treatment, 
+Preservation, & Lubrication 
+
+are Completed
+
+Figure 2-2. Basic Maintenance Functions
+
+
+
+2-4
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+2-7.2. MAINTENANCE AND READINESS DATA
+COLLECTION. All activities using this manual are
+required to use the current maintenance data collection
+system(s) of the parent service organization. This will
+enable a record of corrosion-related failures to be
+submitted to the appropriate technical services facility
+for analysis. Reporting personnel shall identify/report
+corrosion discrepancies in accordance with OPNAVINST
+4709.2 (Navy), TO 00-20-2 (Air Force), or DA PAM
+738-750/DA PAM 738-751 (Army).
+
+2-8. SAFETY. Safety is everyone’s business and
+concern.
+
+2-8.1. RESPONSIBILITY OF SUPERVISORS.
+
+2-8.1.1. Work center supervisors shall receive the
+following training in accordance with parent service
+directives:
+
+a. The recognition and elimination of hazards;
+
+b. Occupational safety and health;
+
+c. The safety of the individual;
+
+d. Accident investigation and reporting; and
+
+e. The inspection and maintenance of personal
+protective equipment (PPE).
+
+2-8.1.2. Supervisors shall ensure that all corrosion
+control personnel are informed of:
+
+a. Current safety procedures;
+
+b. Characteristics of materials to which they will be
+exposed; and
+
+c. Required protective clothing to ensure safety of
+personnel.
+
+2-8.1.3 In addition, supervisors shall ensure that an
+adequate supply of safety equipment is in a ready-for-
+issue condition, and that the personnel under their
+control are given, and use, appropriate protective
+equipment to prevent accidents, injuries, and
+occupational illness.
+
+2-8.2. RESPONSIBILITY OF PERSONNEL. Mainte-
+nance personnel shall use appropriate equipment while
+exposed to hazardous conditions, and shall report to
+the supervisor any protective equipment that is bro-
+
+ken, damaged, defective, or inadequate. No one shall
+use protective equipment that is not in a satisfactory
+and serviceable condition. Personnel shall comply with
+occupational safety and health requirements, including
+medical examinations, respirator training and fit testing,
+and use of protection for eyes, ears, head, skin, and feet.
+
+2-8.3. MATERIALS HANDLING. Many of the materials
+and procedures outlined in this manual are potentially
+hazardous to personnel and potentially damaging to
+aircraft, especially with improper use. When using any
+chemicals, such as paint removers, detergents,
+conversion coatings, and solvents, follow the correct
+procedures with appropriate protective gear to prevent
+personnel injury and aircraft damage. Read the
+appropriate warnings and cautions in this manual prior
+to use of any hazardous materials. Misuse of certain
+materials can damage parts or cause corrosion which
+may lead to catastrophic failure. Refer to DoD 6050.5-
+LR, Hazardous Materials Information System, or the
+appropriate parent service organization documents for
+the handling, storage, and disposal of hazardous
+materials. Refer to local directives and policies pertaining
+to hazardous waste management. When in doubt,
+contact the local safety office, industrial hygienist,
+bioenvironmental engineer, or regional medical center.
+
+2-9. MATERIALS.
+
+2-9.1. Consumable materials and equipment listed in
+Volumes IV and V shall be used for corrosion control.
+These materials and equipment have been approved
+only after extensive testing to prove their ability to
+perform properly and effectively without damaging any
+of the metallic or nonmetallic materials used in aircraft.
+
+2-9.2. Only those materials listed in this manual shall
+be used for cleaning or corrosion control of aircraft
+components. When several methods or materials are
+listed, the preferred one is listed first, with alternates
+following. Materials listed in other manuals shall be
+used only when required procedures are not covered by
+this manual. When approved materials are not available,
+substitutions shall only be made by the appropriate
+Aircraft Controlling Custodians (ACC) or System
+Program Manager (SPM).
+
+2-9.3. Materials or processes considered to be an
+improvement over existing ones, after local laboratory
+analysis and evaluation, shall be forwarded to the
+Aircraft Controlling Custodians (ACC) or System
+Program Manager (SPM) for submission to the parent
+service organization for further evaluation.
+
+
+
+3-1
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+CHAPTER 3
+CORROSION THEORY
+
+3-1. OVERVIEW.
+
+3-1.1. Maintenance of military aircraft and avionic
+equipment requires knowledge of why metals corrode
+and materials degrade. The theory lies in the definition
+and description of mechanisms that cause equipment
+to fail in field service. Corrosion is the chemical or
+electrochemical deterioration of a material. This
+deterioration is complex in nature because of the various
+types of corrosion, the frequent simultaneous presence
+of several types of corrosion, and the design
+characteristics and maintenance/environmental factors
+that make aircraft and avionic systems susceptible to
+corrosion.
+
+3-1.2. Corrosion can cause complete failure of
+equipment or undesirable changes in electrical
+characteristics. It is a process that is active on a 24 hour
+basis. Equipment does not necessarily have to be
+installed, operated, or resident in a particularly harsh
+environment. Some form of corrosion will take place
+even in near ideal environments. All personnel should
+recognize that corrosion is the natural continuing process
+of materials returning to their normal state. Inadequate
+corrosion prevention and control will ultimately affect
+equipment life cycles, downtime, and overall system
+reliability.
+
+3-2. PURPOSE. The purpose of this chapter is to
+provide maintenance personnel with the background
+knowledge necessary to understand the causes of
+corrosion.
+
+3-3. SCOPE. This chapter is an introduction to corrosion
+theory: the causes of corrosion and the factors which
+influence its development. The theory of corrosion and
+the factors influencing corrosion of aircraft metals are
+described. The types of corrosion and how to recognize
+them are discussed.
+
+3-4. DEFINITION OF CORROSION. Corrosion is the
+electrochemical deterioration of a material or its
+properties due to its chemical reaction with the
+surrounding environment. This reaction occurs because
+of the tendency of metals to return to their naturally
+occurring state, usually oxide or sulfide ores. For
+example, iron in the presence of moisture and air will
+return to its natural state, iron oxide or rust. Aluminum
+and magnesium form corrosion products that are white
+oxides or hydroxides. When a water solution containing
+soluble salts is present, corrosion of many alloys can
+
+occur easily at ambient temperatures. This type of
+corrosion can be effectively treated by maintenance
+personnel as discussed in this manual. Corrosion can
+also occur in the absence of water but only at high
+temperatures, such as those found in gas turbine
+engines. However, the most common type of corrosion
+(and the one that can be most effectively treated by
+maintenance personnel) is electrochemical corrosion.
+
+3-5. CHEMICAL DEFINITIONS.
+
+3-5.1. ATOM. The smallest unit of an element, made
+up of a positively charged nucleus surrounded by a
+system of negatively charged electrons. There are over
+100 elements, including metals (such as aluminum,
+magnesium, gold, platinum, iron, nickel, titanium,
+cadmium, chromium, copper, silver, lead, beryllium,
+zinc), and non-metals (such as carbon, boron, sulfur,
+chlorine, hydrogen, oxygen, nitrogen, and helium).
+
+3-5.2. ELECTRON. A negatively charged subatomic
+particle. An electric current occurs when electrons are
+forced to move through metal conductors. Electrons
+flow through liquid solutions only in the presence of
+ions.
+
+3-5.3. ION. An atom or group of atoms or molecules
+which has acquired a net electric charge by gaining
+(negative ion) or losing (positive ion) electrons. When
+ions are forced to move through liquid solutions, an
+electric current can occur. Ions cannot move through
+metal conductors.
+
+3-5.4. ELECTROLYTE. A liquid (usually water) solution
+containing ions. Sea water is an electrolyte: an aqueous
+(water-based) solution whose major components are
+sodium and chloride ions. Electrochemistry is the branch
+of science concerned with chemical reactions at surfaces
+in contact with electrolytes.
+
+3-6. THEORY OF CORROSION. All metals will corrode
+to some extent in a natural environment. When a metal
+corrodes, the atoms lose electrons and become positively
+charged. In solution, the positively charged metal ions
+can combine with negatively charged ions to form
+corrosion products, such as metallic chlorides, oxides,
+hydroxides, and sulfides.
+
+3-6.1. Four conditions (illustrated in Figure 3-1) must
+exist before metal corrosion can occur.
+
+
+
+3-2
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+a. A metal which has a tendency to corrode must
+be present (the corroding metal is called the anode);
+
+b. A dissimilar conductive material (the cathode),
+which has less tendency to corrode than the anode,
+must be present (a dissimilar metal may be a different
+metal, a protected part of the same metal, or conductive
+plastic);
+
+c. A conductive liquid (electrolyte) must connect the
+anode and cathode (so that ions can carry electric
+current between them); and
+
+d. Electrical contact between the anode and cathode
+(usually in the form of metal-to-metal contact) must
+exist so that electrons can move between the anode
+and the cathode.
+
+3-6.2. The elimination of any one of the four conditions
+will slow or stop corrosion. For example, a paint film on
+a metal surface will prevent the electrolyte from
+connecting the anode and cathode, thereby stopping
+the electric current (see Figure 3-2). A change in the
+electrolyte can also affect the rate of corrosion. Two
+connected dissimilar metal parts placed in distilled
+water corrode very slowly due to a lack of ions in solution
+to conduct the electric current; in sea water the corrosion
+reaction is accelerated by a factor of 1000 or more (see
+Figure 3-3).
+
+3-7. DEVELOPMENT OF CORROSION. All corrosive
+attack begins on the surface of the metal. If allowed to
+progress, corrosion can penetrate into the metal. If
+
+Figure 3-1. Simplified Corrosion Cell
+
+Electron Flow
+
+Electrolyte
+(Fresh or Sea Water,
+
+Acids, Gases)
+
+Anodic
+Area
+
+Metal
+
+Cathodic
+Area
+
+Figure 3-3. Effect of Sea Water on
+Galvanic Corrosion
+
+corrosion begins on an inside surface of a component
+(for example, the inner wall of a metal tube), it may go
+undetected until perforation occurs.
+
+3-7.1. When corrosion products form, they often
+precipitate onto the corroding surface as a powdery
+deposit. This film of corrosion products may reduce the
+rate of corrosion, if the film acts like a barrier to
+electrolytes. Some metals (such as stainless steel and
+titanium), under the right conditions, produce corrosion
+products that are so tightly bound to the corroding metal
+that they form an invisible oxide film (called a passive
+film) which prevents further corrosion. However, when
+the film of corrosion products is loose and porous (such
+as those of aluminum and magnesium), an electrolyte
+can easily penetrate and continue the corrosion process,
+producing more extensive damage than surface
+appearance would indicate.
+
+Figure 3-2. Elimination of Corrosion by Application
+of an Organic Film to a Metal Surface
+
+Anodic
+Area
+
+Metal
+
+Cathodic
+Area
+
+Unbroken
+Paint Film
+
+No Contact
+Between
+
+Electrolyte &
+Anode &
+Cathode
+
+Electrolyte
+(Continuous Liquid Path)
+
+
+
+3-3
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+3-7.2. Paint coatings can mask the initial stages of
+corrosion. Since corrosion products occupy more volume
+than the original metal, the paint surfaces may become
+blistered, flaked, chipped, or appear lumpy.
+
+3-8. FACTORS INFLUENCING CORROSION. Factors
+which influence metal corrosion and the rate of corrosion
+are outlined below.
+
+3-8.1. TYPE OF MATERIAL. The best time to prevent
+corrosion is at the design stage. Proper material selection
+is critical for the protection of equipment against harmful
+environmental effects. Most pure metals are not suitable
+for aircraft construction and are used only in combination
+with other metals, and sometimes non-metals, to form
+alloys. The metals most commonly used in aircraft
+construction are aluminum, steel, titanium, and
+magnesium. Cadmium, nickel, chromium, and silver
+are sometimes used as protective platings. Metals have
+a wide range of corrosion resistance. The most active
+metals (those which tend to lose electrons easily), such
+as magnesium and aluminum, corrode easily and are
+listed at the top of Figure 3-4. The most noble metals
+(those which do not lose electrons easily), such as gold
+and silver, do not corrode easily and are listed at the
+bottom of Figure 3-4.
+
+3-8.2. HEAT TREATMENT AND GRAIN DIRECTION.
+Most alloys are made up entirely of small crystalline
+regions called grains. When heat treated during
+manufacturing or repair, heavy sections of metals do
+not cool uniformly and, as a result, tend to vary in
+chemical composition from one part of the metal to
+another. This can cause corrosion if one area is more
+active than another. Alloys which are fabricated by
+rolling, extruding, forging, or pressing have properties
+which depend highly on direction (parallel to grain
+elongation vs. cross grain). Corrosion can occur on
+surfaces of those regions which are less resistant and
+also at grain boundaries, resulting in the formation of
+pits and intergranular corrosion. For example, exposed
+end grains corrode much more easily than flattened
+elongated surfaces in sheet stock. This explains why
+exfoliation occurs at the edge of aircraft skin sections or
+next to countersunk fasteners.
+
+3-8.3. DISSIMILAR METALS. When two dissimilar
+metals make electrical contact in the presence of an
+electrolyte, the rate at which corrosion occurs depends
+on the difference in their activities, that is, their positions
+in Figure 3-4. The greater the difference in activity, the
+
+faster corrosion occurs. For example, magnesium
+would corrode very quickly when coupled with gold in
+a humid atmosphere. But aluminum would corrode
+very slowly, if at all, in contact with cadmium. A
+flashlight battery is an example of galvanic corrosion
+put to practical use. In Figure 3-5, the zinc battery
+casing steadily corrodes, supplying a steady flow of
+electrons, but only when the switch is closed. When
+the switch is open, there is no corrosion because
+electrons are not able to leave the zinc anode.
+
+3-8.4. ANODE AND CATHODE SURFACE AREA.
+The rate of corrosion also depends on the size of the
+parts in contact. If the surface area of the corroding
+metal (the anode) is smaller than the surface area of
+the less active metal (the cathode), corrosion will be
+rapid and severe. But, when the corroding metal is
+larger than the less active metal, corrosion will be slow
+and superficial. For example, an aluminum fastener in
+contact with a relatively inert monel structure may
+corrode severely, while a monel bracket secured to a
+large aluminum member would result in a relatively
+superficial attack on the aluminum sheet (see
+Figure 3-6).
+
+3-8.5. PRESENCE OF ELECTROLYTES. Electrically
+conducting solutions are easily formed on metallic
+surfaces when condensation, salt spray, rain, or rinse
+water accumulate. Dirt, salt, acidic stack gases, and
+engine exhaust gases can dissolve on wet surfaces,
+increasing the electrical conductivity of the electrolyte,
+thereby increasing the rate of corrosion.
+
+3-8.6. ELECTROLYTE CONCENTRATION. In the
+same way that metals can corrode when exposed to
+different concentrations of oxygen in an electrolyte,
+corrosion will also occur if the concentration of the
+electrolyte on the surface varies from one location to
+another. This corrosive situation is known as a
+concentration cell.
+
+3-8.7. AVAILABILITY OF OXYGEN. When some of the
+electrolyte on a metal surface is partially confined (such
+as between faying surfaces or in a deep crevice), metal
+in this confined area corrodes more rapidly than other
+metal surfaces of the same part outside this area. This
+type of corrosion is called an oxygen concentration cell
+or differential aeration cell. Corrosion occurs more
+rapidly than would be expected because the reduced
+oxygen content of the confined electrolyte causes the
+adjacent metal to become anodic to the metal surfaces
+exposed to the air.
+
+
+
+3-4
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+ANODIC - High Corrosion Potential
+
+CATHODIC - Low Corrosion Potential
+
+Lithium
+Magnesium Alloys
+
+Zinc (plate)
+Beryllium
+
+Cadmium (plate)
+Uranium (depleted)
+
+Aluminum Alloys
+Indium
+
+Tin (plate)
+Stainless Steel 430 (active)
+
+Lead
+1010 Steel
+
+Cast Iron
+Stainless Steel 410 (active)
+
+Copper (plate)
+Nickel (plate)
+
+AM 350 (active)
+Chromium (plate)
+
+Stainless Steels 350, 310, 301, 304 (active)
+Stainless Steels 430, 410 (passive)
+
+Stainless Steel 13-8, 17-7PH (active)
+Brass, yellow, Naval
+
+Stainless Steel 316L (active)
+Bronze 220
+
+Copper 110
+Stainless Steel 347 (active)
+
+Copper-Nickel 715
+Stainless Steel 202 (active)
+
+Monel 400
+Stainless Steel 201 (active)
+
+Stainless Steels 321, 316 (active)
+Stainless Steels 309, 13-8, 17-7 PH (passive)
+
+Stainless Steels 304, 301, 321 (passive)
+Stainless Steels 201, 316L (passive)
+
+Stainless Steel 286 (active)
+AM355 (active)
+
+Stainless Steel 202 (passive)
+Carpenter 20 (passive)
+
+AM355 (passive)
+Titanium Alloys
+
+AM350 (passive)
+Silver
+
+Palladium
+Gold
+
+Rhodium
+Platinum
+
+Carbon/Graphite
+
+Figure 3-4 . Galvanic Series of Metals and Alloys in Sea Water
+
+
+
+3-5
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+3-8.8. TEMPERATURE. Higher temperature
+environments tend to produce more rapid corrosion due
+to accelerated chemical reactions and, in humid
+environments, higher concentration of water vapor in
+the air. In addition, nightly drops in temperature can
+cause greater amounts of condensation, leading to
+increased corrosion rates.
+
+3-8.9. BIOLOGICAL ORGANISMS. Bacterias, molds,
+fungi, and other living organisms (some microscopic)
+can grow on damp surfaces. Once they are well
+established, the area tends to remain damp, increasing
+the possibility of corrosion. Their presence can cause
+the areas they occupy to have different oxygen and
+electrolyte concentrations. In addition, acidic wastes
+are secreted, which cause corrosion.
+
+3-8.10. MECHANICAL STRESS. Many alloys used in
+aircraft construction are sensitive to a form of corrosion
+known as stress corrosion cracking. Manufacturing
+processes such as machining, forming, welding, or heat
+treatment can leave residual mechanical stresses in
+aircraft parts. The addition of in-service stresses to
+residual stresses can cause corrosion to proceed more
+rapidly than would be expected in normal service.
+
+3-8.11. LENGTH OF EXPOSURE. As time passes,
+metals naturally tend to corrode. In some cases, the
+corrosion process occurs at the same rate, no matter
+how long the metal has been exposed to the environment.
+In other cases, corrosion can decrease with time, due to
+the barrier formed by corrosion products, or increase
+with time if a barrier to corrosion is being broken down.
+
+Relatively Little
+Corrosive Attack
+
+Heavy
+Corrosive
+Attack
+
+Aluminum Sheet
+(Large Anode)
+
+Monel Sheet
+(Large Cathode)
+
+Aluminum Rivet
+(Small Anode)
+
+Monel Rivet
+(Small Cathode)
+
+Figure 3-6. Effect of Area Relationship in
+Dissimilar Metal Contacts
+
+Figure 3-5. Galvanic Corrosion in a Flashlight Battery
+
+e
+
+e
+
+e
+
+e
+
+e
+
+e
+
+e
+
+e
+
+Electrolyte
+
+Electrolyte
+
+Zinc
+Anode
+
+Carbon
+Cathode
+
+Direction of
+Current Flow
+
+Metal Ions Go Into Solution
+From the Anode
+
++
+
+
+
+3-6
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+3-9. TYPES OF CORROSION. Corrosion is
+catalogued and typed in many ways. Occasionally,
+different names are used for the same type of corrosion.
+The common types of corrosion are described below.
+
+3-9.1. UNIFORM SURFACE CORROSION. Uniform
+surface corrosion is probably the most common type of
+corrosion. It results from a direct chemical attack on a
+metal surface that proceeds uniformly over the entire
+exposed surface (see Figure 3-7). The metal gradually
+becomes thinner and eventually fails. On a polished
+surface, this type of corrosion is first seen as a general
+dulling or etching of the surface and, if the attack is
+allowed to continue, the surface becomes rough and
+possibly frosted in appearance. An example is the
+etching of metals by acids. The discoloration or general
+dulling of metal created by exposure to elevated
+temperatures is not considered to be uniform surface
+corrosion. Coating/sealing the exposed surface will
+protect it from this type of attack. Also, corrosive elements
+may be removed through air movement and drain holes.
+
+3-9.2. GALVANIC CORROSION. Galvanic corrosion
+occurs when different metals are in contact with each
+other and an electrolyte, such as sea water. It is usually
+recognizable by the presence of a buildup of corrosion
+deposits at the joint between the metals. For example,
+aluminum skin panels and stainless steel doublers,
+riveted together in an aircraft wing, form a galvanic
+couple if moisture and contamination are present.
+Figure 3-8 shows galvanic corrosion of magnesium
+adjacent to steel fasteners. The potential for galvanic
+corrosion is greatest when the two metals are well
+separated from each other in the galvanic series (see
+Figure 3-4) and are in electrical contact.
+
+3-9.3. PITTING CORROSION. Pitting is a form of
+extremely localized attack that results in holes in the
+metal (see Figure 3-9). Pits can be isolated, or so
+close together that they look like a rough surface. Pits
+are often difficult to detect because of their small size
+and because they may be covered with corrosion
+products. Pitting is usually first noticeable as a white or
+gray powdery deposit, similar to dust, which blotches
+the surface. When the deposit is cleaned away, tiny
+pits or holes can be seen in the surface. Most pits
+develop and grow downward (in the direction of gravity)
+from a horizontal surface. Pitting failures are commonly
+caused by electrolytes containing chloride or chlorine-
+
+Figure 3-7. Surface Corrosion on Frequency Test Set
+
+Figure 3-9. Variations in the Cross-Sectional
+Shape of Corrosion Pits
+
+* Shapes determined by microstructural orientation
+
+Horizontal* Vertical*
+
+Narrow &
+ Deep
+
+Elliptical
+
+Subsurface Undercutting
+
+Wide and Shallow
+
+Figure 3-8. Galvanic Corrosion of Magnesium
+Adjacent to Steel Fastener
+
+Electrolyte
+Corrosion Products
+
+Magnesium Alloy
+(Anode)
+
+Steel
+Fastener
+(Cathode)
+
+
+
+3-7
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+containing ions (such as seawater). Stainless steels
+are most susceptible to pitting damage, although
+aluminum, magnesium, and copper are often attacked
+(see Figure 3-10).
+
+3-9.4. INTERGRANULAR CORROSION.
+Intergranular corrosion is an attack on the grain
+boundaries of the metal. A highly magnified cross
+section of any commercial alloy (see Figures 3-11 and
+3-12) shows the granular structure of the metal. It
+consists of quantities of individual grains, each having
+a clearly defined boundary, which chemically differs
+from the metal within the grain. Frequently the grain
+boundaries are anodic (tend to corrode more easily) to
+the metal within the grain. When an electrolyte is
+present, rapid selective corrosion of the grain
+boundaries occurs. High strength aluminum alloys,
+which depend on precipitated phases of alloying
+elements for strength, are particularly susceptible to
+intergranular attack. Figure 3-13 shows how
+intergranular corrosion progresses in 7075-T6
+aluminum alloy adjacent to steel fasteners. In this
+example, the grain boundaries are anodic to both the
+metal grain and the steel fastener.
+
+3-9.5. EXFOLIATION CORROSION. Exfoliation (see
+Figures 3-14 and 3-15) is an advanced form of
+intergranular corrosion where the surface grains of a
+metal are lifted up by the force of expanding corrosion
+products occurring at the grain boundaries. The lifting
+up or swelling is visible evidence of exfoliation corrosion.
+Exfoliation occurs on extruded, rolled, wrought, and
+forged high strength aluminum and magnesium parts.
+This type of corrosion most often occurs on extruded
+sections of metal and is found primarily in aluminum
+sheet around steel fasteners. Its prevention involves
+separating the aluminum and steel by a barrier, such as
+zinc-chromate primer or sealant.
+
+3-9.6. CREVICE CORROSION. Crevice corrosion is
+one of the most familiar types of corrosion. Field
+experience shows that this type of corrosion may occur
+in any crevice where a stagnant solution has pooled.
+Crevices are usually located at gasket surfaces, lap
+joints, and under bolt or rivet heads. Crevice corrosion
+occurs because the environment of the local area is
+very different from the larger environment. As a result,
+the metal surfaces, even though they may be the same
+metal, have different activities, and corrosion occurs
+inside the crevice. This kind of corrosion can also occur
+when a surface is covered by a foreign material. Methods
+to minimize crevice corrosion include closing the crevice
+
+Figure 3-11. Cross-Section of 7075-T6 Aluminum Alloy
+
+Figure 3-10. Pitting of an Aluminum Wing Assembly
+
+Figure 3-12. Scanning Electron Micrograph of a
+Corroding Aluminum Surface
+
+
+
+3-8
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+by welding, sealant, or soldering, and use of
+nonabsorbent gaskets (such as Teflon).
+
+3-9.6.1. Oxygen Differential Cells. Electrolyte in
+contact with metal surfaces will normally contain
+dissolved oxygen. An oxygen cell can develop at any
+point where the oxygen in the air is not allowed to
+diffuse into the solution, thereby creating a difference
+in oxygen concentration between two points. Typical
+locations of oxygen differential cells are under either
+metallic or non-metallic deposits (dirt) on the metal
+surface and under faying surfaces such as riveted lap
+joints. Oxygen cells can also develop under gaskets,
+
+wood, rubber, plastic tape, and other materials in
+contact with the metal surface. Corrosion will occur at
+the area of low oxygen concentration (anode) as
+illustrated Figure 3-16, View A. Alloys such as stainless
+steel, which owe their corrosion resistance to surface
+passivity, are particularly susceptible to this type of
+crevice corrosion.
+
+3-9.6.2. Active/Passive Cells. Metals which depend
+on a tightly adhering passive film, such as the oxide
+film on corrosion resistant steel, are prone to rapid
+corrosive attack by active/passive cells. The corrosive
+action usually starts with a deposit of dirt or salt which
+
+Figure 3-14. Extreme Example of Exfoliation at
+Edge of Sheet
+
+Figure 3-15. Exfoliation Adjacent to Fasteners
+
+Figure 3-13. Intergranular Corrosion of 7075-T6
+Aluminum Adjacent to Steel Fasterner
+
+Electrolyte Enters
+Through Cracks in 
+Paint Film IntergranualarCorrosion
+
+Paint Film
+
+7075-T6 Aluminum
+(Anode)
+
+Steel
+Fastener
+(Cathode)
+
+
+
+3-9
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+creates an oxygen differential cell. The passive film is
+then broken in the area of the salt deposit and the more
+active metal beneath the passive film will be exposed
+to corrosive attack. This small anodic area will then
+corrode rapidly due to the much larger area of the
+surrounding cathode (passive film). The result is rapid
+pitting of the surface, as illustrated in Figure 3-16,
+View B.
+
+3-9.7. FILIFORM CORROSION. Filiform corrosion is
+a form of crevice corrosion which occurs on metal
+surfaces having a thin (~4 mils) organic protective
+coating. It is recognized by its characteristic wormlike
+trace of corrosion products beneath the coating (see
+Figure 3-17). Filiform corrosion is unusual because it
+only affects surface appearance, but does not weaken
+
+or destroy the base metal. Filiform corrosion occurs
+when the relative humidity of the air is between 65 and
+90%, and the air temperature is between 70° and 100°F.
+It starts at breaks in the coating system, such as
+scratches and cracks around fasteners and seams, and
+proceeds underneath the coating, due to the diffusion
+of water vapor and oxygen from the air through the
+coating (see Figure 3-18). Filiform corrosion can attack
+
+Figure 3-16. Crevice Corrosion Mechanisms
+
+Passive Film
+Protects Exposed
+Surface
+
+Electrolyte Low Oxygen Concentration
+(Corrosion Site)
+
+High Oxygen Concentration
+
+Pitting Corrosion
+
+Foreign Material 
+Creates Low Oxygen
+Region Which Prevents
+the Re-Formation
+of Passive Film
+
+Active Metal
+
+A. Oxygen Differential Cell
+
+B. Active Passive Cell
+
+Figure 3-17. Filiform Corrosion Found Under
+Paint Coating on a Magnesium Panel
+
+Figure 3-18. Schematic of the Development of Filiform Corrosion on an Aluminum Alloy
+
+CathodeOrganic
+Coating
+
+Break in
+Coating
+
+Base Metal
+
+Anode
+
+
+
+3-10
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+steel, magnesium, and aluminum surfaces and may
+lead to more serious corrosion in some locations.
+Filiform corrosion can be prevented by storing
+equipment and aircraft in an environment with a relative
+humidity below 65%, by using coating systems having
+a low rate of diffusion for oxygen and water vapors, by
+maintaining coatings in good condition (prompt touchup
+around fasteners), and applying corrosion preventive
+compounds (CPCs) when the coating is damaged.
+
+3-9.8. EROSION CORROSION. Erosion corrosion is
+the increase in the rate of attack on a metal due to the
+action of a corrosive fluid against the metal surface.
+Generally the movement is rapid, and wear or abrasion
+occurs with the corrosion. Erosion corrosion is
+characterized by grooves, gullies, waves, rounded holes
+and/or valleys in the metal surface. Metals that are soft
+(copper, lead) or metals that depend upon the
+development of a protective surface film (aluminum,
+stainless steel) are susceptible to erosion corrosion
+damage. Equipment exposed to moving fluids (e.g.
+heat exchanger tubing, pumps, propellers, impellers)
+are also susceptible.
+
+3-9.9. STRESS CORROSION. Also called stress
+corrosion cracking (SCC). Stress corrosion
+(Figure 3-19) is the intergranular or transgranular
+cracking of a metal caused by the combined effects of
+constant tensile stress (internal or applied) and corrosion.
+Internal or residual stresses may be produced by welding,
+cold working, forming, and heat treatment operations
+during the manufacture of a part. Stresses remain
+concealed in the part unless stress relief operations
+are used. Other hidden stresses are induced in parts
+when press or shrink fits are used and when slightly
+mismatched parts are clamped together with rivets and
+bolts. All these stresses add to those caused by applying
+normal loads to parts in operation. Stress corrosion is
+normally localized and appears in the form of cracks.
+During SCC, the metal is unattacked over most of its
+surface, while fine cracks progress through the interior
+of the part. Cracking is generally perpendicular to the
+applied stress. Metals have threshold stresses below
+which stress corrosion cracking will not occur. This
+threshold stress varies from metal to metal, is different
+for different tempers of the same metal, and is different
+for each of the three directions in which stress can be
+applied. In aircraft, high strength steel parts (e. g.
+landing gear) and high strength aluminum parts are
+particularly susceptible to stress corrosion.
+
+3-9.9.1. Associated Hazards. Stress corrosion cracking
+is an extremely dangerous type of failure because it can
+
+occur at stress levels far below the rated strength of a
+metal, starting from what appears to be a very minor
+corrosion pit. This type of failure can be catastrophic
+and occur without warning. Parts can completely sever
+in a split second or they can crack slowly. The rate of
+cracking and the stress limit is very unpredictable in
+operating service. For example, 7075-T6 aluminum
+alloy can fail by stress corrosion cracking when subjected
+to a stress which is only 10% of its rated strength.
+
+3-9.9.2. Causes. Specific environments have been
+identified which cause stress corrosion cracking of
+certain alloys. Salt solutions, sea water, and moist salt
+laden air may cause stress corrosion cracking of heat
+treatable aluminum alloys, stainless steels, and some
+titanium alloys. Magnesium alloys may stress corrode
+in moist air. Stress corrosion can be prevented by
+placing an insulating barrier between the metal and the
+corrosive environment, or by applying protective coatings
+and/or water displacing corrosion preventive
+compounds. Stress relief operations during fabrication
+
+Figure 3-19. Cracking (Typical of Stress Corrosion or
+Corrosion Fatigue)
+
+
+
+3-11
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+of parts will help, because it lowers the internal stress
+level of the part. Shot peening a metal increases
+resistance to stress corrosion cracking by creating
+compressive stresses on the surface, which must be
+overcome by an applied tensile stress before the
+surface sees any tension load. Changing the alloy (for
+example, replacing an aluminum 7075-T6 part with
+one made from 7075-T73 or –T76 alloy) can greatly
+increase resistance to SCC.
+
+3-9.10. CORROSION FATIGUE. Corrosion fatigue
+(see Figure 3-19) is the cracking of metals caused by
+the combined effects of cyclic stress and corrosion. No
+metal is immune to reduction in its resistance to cyclic
+stress if the metal is in a corrosive environment. Corrosion
+damages the metal by pitting, followed by crack formation
+in the pitted area due to cyclic stress. The crack is
+propagated predominantly in the fatigue mode, in which
+the rate of cracking is controlled by the stress
+concentration in the main cross section, the physical
+properties of the metal, and the presence of corrosion
+products on the crack face. Fracture of a metal part due
+to corrosion fatigue occurs when the remaining cross-
+sectional area is unable to carry the applied loads. Like
+stress corrosion, corrosion fatigue is normally localized
+and appears in the form of cracks. The metal is generally
+unattacked over most of its surface, while the crack
+progresses through the part. Cracking is generally
+perpendicular to the applied stress. Protection of all
+parts subject to cyclic stress is particularly important,
+even in environments that are only mildly corrosive.
+Preventive measures include reducing the stress on the
+part, using corrosion inhibitors, and applying a metallic
+coating (e.g. chromium, cadmium, or ion vapor deposition
+(IVD) aluminum) to the part.
+
+3-9.11. FRETTING CORROSION. Fretting corrosion
+occurs at contact areas between materials under load
+subject to repeated vibration. The relative motion needed
+to produce fretting is extremely small (sometimes as
+little as 10-8 cm). The corrosion products increase the
+wear of the surface, and the wear exposes more bare
+metal surface to be corroded. The overall effect is
+greater than the single effects of corrosion and wear
+added together. Fretting has the general appearance of
+galling, in which chunks of metal are torn from the
+surface with corrosion at the torn areas or ragged pits
+(see Figure 3-20). Although fretting corrosion can take
+place on any metal, aluminum, stainless steel, and
+titanium alloys are most susceptible. These metals
+depend on an oxide surface film to inhibit further
+corrosion. With rapid movement under pressure at the
+interface, the oxides are removed and rapid oxidation
+
+occurs. Moisture does not appear to increase the
+corrosion; in fact, it tends to slow down the reaction.
+Fretting corrosion is normally encountered in heavily
+loaded static joints which are subject to vibration, such
+as landing gear component attachment areas having
+lug holes with slight press fits, slip fit bushings with
+very close tolerance bolts passing through the bushings,
+wing root access panels or wing-to-body fairings, and
+engine blade roots. Practical means of reducing fretting
+corrosion include reducing the amount of relative motion
+at the surface, adding a lubricant at the interface to
+reduce friction and seal out oxygen, increasing the
+surface hardness of the part, and increasing the overall
+hardness of one or both contacting metals.
+
+3-9.12. HOT CORROSION. Also called high
+temperature oxidation. Corrosion in the absence of
+water can occur at high temperatures, such as those
+found in turbine engine combustors, turbine sections,
+and afterburners. When hot enough, metals can react
+directly with the surrounding gases, producing oxide
+scale (see Figures 3-21 and 3-22). Contaminants,
+such as chlorides and sulfates, can accelerate the hot
+corrosion reaction by reducing the melting point of the
+metallic oxide and promoting its vaporization. High
+temperature ceramic coatings can reduce this type of
+corrosion but are usually applied only by the
+manufacturer due to the highly specialized equipment
+required for application.
+
+3-10. METALS AFFECTED BY CORROSION. No
+metal has perfect environmental integrity and is totally
+resistant to corrosion. As a result, all metals will corrode
+sooner or later. The characteristics of corrosion on
+aircraft metals are summarized in Table 3-1. The
+
+Figure 3-20. Fretting Corrosion
+
+
+
+3-12
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+following paragraphs discuss the corrosion
+characteristics of commonly used aircraft metals.
+
+3-10.1. ALUMINUM. Aluminum and aluminum alloys
+are the most widely used materials for aircraft
+construction. In addition to its uses in aircraft structure,
+aluminum and aluminum alloys are widely used in
+equipment housings, chassis, mounting racks,
+supports, frames and electrical connector shells.
+Aluminum is highly anodic, as evidenced by its position
+in the galvanic series table. It is anodic to most other
+metals, and, when in contact with them, galvanic
+corrosion of the aluminum will occur. Aluminum alloys
+are subject to pitting, intergranular corrosion, and
+stress corrosion cracking. In some cases, the corrosion
+products of a metal in contact with aluminum are
+corrosive to aluminum. However, the formation of a
+tightly adhering oxide film offers increased resistance
+under mild corrosive conditions. The corrosion product
+of aluminum is a white to gray powdery material
+(aluminum oxide or hydroxide) which can be removed
+by mechanical polishing or brushing with abrasives
+(Figure 3-23). Therefore, it is necessary to clean and
+protect aluminum and its alloys against corrosion.
+Since pure aluminum is more corrosion resistant than
+most alloys, aluminum sheet stock is often covered
+with a thin layer of nearly pure aluminum called cladding
+or alclad. However, in a marine environment, all
+aluminum surfaces require protection. Cladding is
+easily removed by harsh treatment with abrasives and
+tooling, exposing the more corrodible alloy surface.
+Chemical conversion coating, paints, and corrosion
+preventive compounds are the main methods of
+protection.
+
+3-10.2. ANODIZED ALUMINUM. Some aluminum
+parts are protected with an electrochemically applied
+oxide coating called anodize. Aluminum oxide film on
+aluminum is a naturally occurring protective film, and
+anodizing merely increases the thickness of the oxide
+film. When this coating is damaged in service, it can be
+only partially restored by chemical surface treatment.
+Unnecessary destruction (e.g. nicks and scratches) of
+the anodized surface must be avoided.
+
+3-10.3. MAGNESIUM. Magnesium alloys are the
+lightest structural metals used for aircraft and missile
+airframes. Magnesium alloys are used extensively
+throughout avionic systems as antennas, structures,
+chassis, supports, and frames (radar). Magnesium is
+also used extensively for transmission and gearbox
+housings. These alloys are highly susceptible to
+corrosion when the metal surface is exposed to the
+environment without a protective finish. The corrosion
+products are white powdery snow-like mounds (see
+Figure 3-24). The deposits have a tendency to raise
+slightly and the corrosion spreads rapidly. When the
+white puffy areas are discovered, it requires prompt
+treatment or the corrosion will penetrate entirely through
+the structure. The natural oxide-carbonate film formed
+on magnesium alloys does not provide sufficient
+corrosion protection even in the mildest environment.
+The rate of corrosion of a magnesium alloy increases
+when the alloy is immersed in water or periodically
+subjected to moisture. Corrosion may also be
+accelerated by dissimilar metal couples and when
+conductive contaminants are dissolved in the water.
+Corrosion of magnesium alloys can be greatly
+diminished by the use of the proper protective finish,
+such as magnesium conversion coating and paint.
+Some magnesium parts in current aircraft have been
+originally protected by anodizing processes. Coatings
+
+Figure 3-22.  Hot Corrosion on Engine ComponentsFigure 3-21.  Hot Corrosion on Fasteners
+
+
+
+3-13
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+Table 3-1. Effects of Corrosion on Metals
+
+SYOLLA HCIHWOTKCATTAFOEPYT ELBITPECSUSSIYOLLA
+FOECNARAEPPA
+
+TCUDORPNOISORROC
+
+yollAmunimulA sserts,noitailofxe,ralunargretni,gnittipecafruS gnitterfdna,gnikcarceugitafdnanoisorroc redwopyargotetihW
+
+yollAmuisengaM gnittipotelbitpecsusylhgiH ,sdnuomekilwons,yredwop,etihW ecafrusnostopsetihwdna
+
+woL&nobraC
+leetSyollA
+
+)seires0008-0004(
+;gnittipdnanoitadixoecafruS
+
+noisorrocralunargretnidnaecafrus )tsur(edixonworb-hsiddeR
+
+sleetSsselniatS
+)seires004-003(
+
+eniramnignittipemos;noisorroceciverC
+ralunargretni;gnikcarcnoisorroc;stnemnorivne
+
+004(noisorrocecafrus;)seires003(noisorroc
+)seires
+
+,nworb,derasemitemos;ecafrushguoR
+niatskcalbro
+
+yollAmuinatiT
+detaeperrodednetxe;tnatsisernoisorrocylhgiH
+
+nitluseryamstnevlosdetanirolhchtiwtcatnoc
+.seitreporplarutcurtss'latemehtfonoitadarged
+.tnemelttirbmeesuacnacslootdetalpmuimdaC
+
+.erutarepmetwoltastcudorpnoisorrocelbisivoN
+evobapolevedsedixoecafrusderoloC
+
+)C°073(F°007
+
+sadesu(muimdaC
+gnitalpevitcetorpa
+
+)leetsrof
+noisorrocecafrusmrofinU kcalbronworbottisopedyredwopetihwmorF
+
+.ecafrusehtfognilttom
+
+)etalp(muimorhC stiperehwleetsfognitsursetomorp(gnittiP )etalpnirucco
+gnitalpfogniretsilb;stcudorpnoisorrocelbisivoN
+
+gnitfildnagnitsuroteud
+
+yollAesab-lekciN
+)lenoM,lenocnI(
+
+;seitilauqtnatsisernoisorrocdoogsahyllareneG
+retawaesnignittipotelbitpecsus tisopedyredwopneerG
+
+lekciNsselortcelE
+)gnitalpasadesu( gnitalpecafrusfognikalfdnagnittiP
+
+noisorrocsetomorptub,edorroctonseodlekciN
+ehtniruccostiperehwlatemesabmunimulafo
+
+gnitalp
+
+,yollAesab-reppoC
+eznorB,ssarB noisorrocralunargretnidnaecafruS tisopedyredwopneerg-eulbroeulB
+
+revliS ruflusfoecneserpnihsinratlliW mlifkcalbotnworB
+
+dloG tnatsisernoisorrocylhgiH secafrusevitcelferfogninekradesuacstisopeD
+
+niT htworgreksihwottcejbuS stisopedekil-reksihW
+
+Figure 3-23. Aluminum Surface Corrosion Products Figure 3-24. Magnesium Corrosion Products
+
+
+
+3-14
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+of this type are thicker than those applied by immersion
+or brush on conversion coating. Anodized finishes cannot
+be restored in the field. Care should be taken to minimize
+removal of these coatings.
+
+3-10.4. STEEL. Ferrous (iron) alloys are used to
+manufacture many aircraft components and massive
+structures and assemblies in aircraft ground support
+equipment, such as missile gantries, silo crib structures,
+frames and bodies of trailers and vans, and lesser
+structural parts such as brackets, racks, and panels.
+Iron and steel are also used as component leads,
+magnetic shields, transformer cores, brackets, racks,
+and general hardware in avionic systems. If unprotected,
+ferrous alloy surfaces (with the exception of stainless
+steels) are easily corroded in the presence of moisture.
+Corrosion of steel is easily recognized because the
+corrosion product is red rust (Figure 3-25). When
+ferrous alloys corrode, a dark corrosion product usually
+forms first. When moisture is present, this coating is
+converted to red rust, which promotes further attack by
+absorbing moisture from the air. Ferrous alloy surfaces
+of structures or assemblies are normally painted, or
+plated with nickel, tin, or cadmium and painted, to
+prevent corrosion.
+
+3-10.5. STAINLESS STEEL. Stainless steels, or
+corrosion resistant steels (as they are more properly
+described) are alloys of iron containing large amounts
+of chromium and nickel. Stainless steels are used for
+gears, bearings, and high strength bolts, and for
+mountings, racks, brackets, and hardware in avionic
+systems. The main reason for the existence of stainless
+steels is their resistance to corrosion. Stainless steels
+are much more resistant to common rusting, chemical
+action, and high temperature oxidation than ordinary
+steels, due to the formation of an invisible oxide film, or
+
+passive layer, on the surface of these alloys. Corrosion
+and heat resistance are the major factors in selecting
+stainless steels for a specific application. However, it
+should be well understood that stainless steels are not
+the cure-all for all corrosion problems, due to service
+conditions which can destroy the oxide film on their
+surfaces. Stainless steels are susceptible to crevice
+corrosion and stress corrosion cracking in moist, salt
+laden environments. Exposure to saltwater can cause
+pitting. The corrosion product of stainless steel is a
+roughened surface with a red, brown, or black stain.
+Corrosion treatment of stainless steel should be limited
+to cleaning. Stainless steels can cause galvanic
+corrosion of almost any other metal with which they are
+in contact if proper techniques of sealing and protective
+coating are not used. Stainless steels may be magnetic
+or non-magnetic. The magnetic steels are identified by
+numbers in the American Iron and Steel Institute (AISI)
+400 Series (e.g. 410, 430). These steels are not as
+corrosion resistant as the non-magnetic steels, which
+are identified by numbers in the AISI 300 Series (e.g.
+304, 316).
+
+3-10.6. TITANIUM. Titanium and titanium alloys find
+numerous uses in aircraft, engines, and missiles at
+temperatures up to 1000°F (540°C). Above 1000°F,
+titanium readily absorbs gases from the surrounding air
+and becomes very brittle. Under certain conditions,
+chlorides and some chlorinated solvents may induce
+stress corrosion cracking of certain titanium alloys.
+Titanium and its alloys are highly corrosion resistant. An
+oxide film forms on their surfaces almost immediately
+upon contact with air, which is extremely adherent to
+the surfaces and provides a protective barrier. This is
+identical to the way aluminum forms a protective oxide
+film on its surface. Even at temperatures approaching
+1000°F, titanium retains its strength and corrosion
+resistance. When titanium is heated, oxides having
+
+Figure 3-25. Steel Corrosion Products
+Figure 3-26. Color Changes in Titanium Due to Heating
+
+
+
+3-15
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+different colors form on the surface (see Figure 3-26).
+A blue oxide coating will form at 700° to 800°F (370° to
+425°C), a purple oxide at 800° to 950°F (425° to
+510°C), and a gray or black oxide at 1000°F (540°C) or
+higher. These are protective discolorations and should
+not be removed. Since titanium is the less active member
+(cathodic) of most dissimilar metal couples, it can greatly
+accelerate corrosion of a dissimilar metal coupled to it.
+Electrical insulation between titanium and other metals
+is necessary to prevent galvanic corrosion of the other
+metal. Titanium in contact with a corroding metal can
+absorb hydrogen and become brittle. Frequent
+inspection of such areas is required to insure that
+insulation failure has not allowed corrosion to begin.
+
+3-10.7. CADMIUM. Cadmium is used as a coating to
+protect steel hardware, such as bolts, washers, and
+screws, and as plating on electrical connectors. It is
+used as a plating on high strength steel parts (e.g.
+landing gear) to improve resistance to corrosion fatigue.
+Cadmium may also used to provide a compatible surface
+when a part is in contact with other materials. Cadmium,
+when coupled with steel, is anodic and protects the steel
+by galvanic action. Corrosion on cadmium is evident
+by white to brown to black mottling of the surface.
+When cadmium plate shows mottling and cracks in the
+coating, the plating is still performing its protective
+function as an anodic material (see Figure 3-27). The
+cadmium plate on iron or steel is still protecting the
+base metal until signs of rust begin to appear. Even
+then, any mechanical removal of corrosion products
+
+should be limited to metal surfaces from which the
+cadmium has been depleted. Care should be taken not
+to remove undamaged cadmium plate adjacent to the
+corroded area.
+
+3-10.8. CHROMIUM. Chromium is used as a protective
+plating. Chromium plating is also used to provide a
+smooth, wear-resistant surface and to reclaim worn
+parts. When corrosion resistance in a marine
+environment is required, a nickel under-coat is used.
+The degree of protection is dependent upon plating
+thickness. Chromium forms a continuous oxide coating
+that can be polished to a high luster and still protect not
+only itself but any underlying metal. Chromium coatings
+contain cracks, and corrosion may originate at the base
+metal below these separations. Figure 3-28 shows the
+results of a failed chromium plate.
+
+3-10.9. NICKEL. Nickel is important as a plating metal,
+an additive to stainless steel, and a base for nickel
+alloys. Pure nickel is used as an electroless coating and
+is subject to pitting corrosion. Flaking of the nickel
+coating can also occur when an underlying metal
+corrodes. When added to stainless steel alloys, the
+stress corrosion resistance increases with nickel
+contents above 10%. Nickel based alloys are used in
+high temperature areas (engines, afterburners), but
+they are subject to hot corrosion attack and embrittlement
+when sulfur containing gases are present.
+
+3-10.10. COPPER AND COPPER ALLOYS. Copper
+and copper-based alloys (brass and bronze) are
+considered corrosion resistant, with corrosion usually
+limited to staining and tarnish. Copper and copper-
+based alloys are generally used in avionic systems as
+contacts, springs, leads, connectors, printed circuit
+board (PCB) conductors, and wires. Generally, changes
+in surface conditions are not dangerous and should
+ordinarily have no effect on the part. Copper corrosion
+is evidenced by the accumulation of blue or blue-green
+
+Figure 3-27. Cadmium Plated Surface Conditions
+
+Figure 3-28. Failed Chromium Plate
+
+
+
+3-16
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+corrosion products on the corroded part (see
+Figure 3-29). Sometimes copper or copper alloy
+surfaces tarnish to a dull gray-green color (patina) and
+the surface will remain relatively smooth. This
+discoloration is the result of the formation of a fine-
+grained, airtight copper oxide crust. This crust offers
+good protection for the underlying metal in ordinary
+situations. However, exposure of copper and copper
+alloys to moisture or salt spray causes the formation of
+blue-green salts, indicating active surface corrosion,
+which should be removed. When coupled with most
+metals used in aircraft construction, copper is the less
+active metal and greatly accelerates corrosion of iron,
+steel, aluminum, and magnesium. Examples are usually
+found in electrical components and in areas where
+copper bonding strips or wires are fastened to an
+aluminum chassis or structural components. Protective
+paint coatings are seldom required because of the
+inherent resistance of the metal. However, paint finishes
+may be applied for decorative purposes or if the normal
+tarnish or green patina on the copper is objectionable.
+
+3-10.11. SILVER. Silver is used as a plating material
+over copper in waveguides, miniature and
+microminiature circuits, wires, contacts, high frequency
+cavities, tank circuits, and RF shielding. Silver does not
+corrode in the ordinary sense, although it will tarnish in
+the presence of sulfur. The tarnish appears as a brown
+to black film. The tarnish is silver sulfide and may or
+may not be detrimental to circuit electrical
+characteristics, depending on the application. When
+silver is plated over copper there can be an accelerated
+corrosion of the copper. This occurs through galvanic
+action at pinholes or breaks in the silver plating. One
+example of this is the deterioration of silver plated
+
+copper wire. This problem is compounded because
+the wire insulation prohibits detection of breaks in the
+silver plating until damage is extensive. This “red
+plague” is readily identifiable by the presence of a
+brown-red powder deposit on the exposed copper.
+Silver plating over nickel plate does not exhibit the red
+plague phenomenon.
+
+3-10.12. GOLD. Traditionally considered the best
+coating for corrosion resistance and solderability, gold
+is used on printed circuits, semiconductors, leads, and
+contacts. Gold is usually applied in a thin layer over
+nickel, silver, or copper. Gold is a noble metal (pure
+metal in nature) and does not normally corrode; however,
+a slight deposit will appear as a darkening of reflecting
+surfaces. Tarnish removal is critical on gold components
+because of the very thin coatings used. Gold plated over
+silver or copper in thin layers accelerates corrosion over
+the less noble metals (silver or copper). This occurs at
+pores or pinholes in the gold. This corrosion is readily
+identified as darkening of the silver or blue-green deposits
+on the copper. "Purple plague" is a brittle gold-aluminum
+compound formed when bonding gold to aluminum.
+The growth of such a compound can cause failure in
+microelectronic interconnection bonds.
+
+3-10.13. TIN. The use of tin in solder is a well-known
+application. However, tin plating is also common on
+avionic RF shields, filters, crystal covers, and automatic
+switching devices. Tin has the best combination of
+solderability and corrosion resistance of any metallic
+coating. However, tin has a tendency to grow “whiskers”
+on tin plated wire and other plated applications.
+
+3-11. DEGRADATION OF NON-METALS. Non-
+metallic materials (plastics, elastomers, paints and
+adhesives) are not subject to electrochemical corrosion,
+since ions are not easily formed from non-metallic
+materials and since the electrical conductivity of non-
+metals is extremely low. The degradation of non-metals
+depends on the chemical makeup of the material and
+the nature of the environment. In general, aircraft non-
+metallic materials are selected for their performance
+properties (flexibility, transparency, strength, electrical
+resistance). Also, resistance to heat, impact, abrasion,
+ultraviolet radiation, moisture, ozone and other
+detrimental gases, as well as operational fluids such
+as hydraulic fluid, lubricants, cleaners, and deicing
+fluids, must be considered. However, the use of
+unauthorized maintenance chemicals and procedures
+can accelerate degradation. In almost all cases, the
+deterioration of a nonmetallic material permits moisture
+intrusion. This creates physical swelling, distortion,
+
+Figure 3-29. Corroded Circuit Card
+
+
+
+3-17
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+mechanical failure through cracking, and altering of
+electrical characteristics. The most common nonmetals
+used in aircraft systems and their modes of deterioration
+are listed in Table 3-2. Examples of nonmetallic
+deterioration are discussed in the following paragraphs.
+
+3-11.1. GRAPHITE/CARBON FIBER COMPOSITES.
+Graphite or carbon fiber composites are materials which
+consist of reinforcing fibers in a matrix made of organic
+resin, usually epoxy. They are an important class of
+aviation materials because of their high strength-to-
+weight ratios and high stiffness. Composite materials
+are found in aircraft structure, connectors, enclosures,
+EMI seals and gaskets. Since carbon is the least active
+metal in the galvanic series, it will accelerate the
+corrosion of any aircraft metal to which it is coupled.
+Insulation between graphite or carbon epoxy
+composites and other metals is necessary to prevent
+dissimilar metal attack on the attached part.
+
+3-11.2. ENCAPSULANTS AND CONFORMAL
+COATINGS. Encapsulants and conformal coatings are
+used to envelop an avionic component, module or
+
+assembly. These materials are considered nearly as
+effective as hermetic sealing. Typical materials used for
+this purpose are epoxy, polyurethane, silicone rubber,
+acrylic, and varnish. Because these materials are
+organic, they are susceptible to moisture, varying
+temperature, and fungus. Moisture accumulates when
+incorrect repair procedures cause imperfections and
+bubbles, or when the coating is applied too thick. High
+temperatures may cause corrosive vapor to outgas
+from encapsulants and conformal coatings. This
+problem is of special concern if a circuit component
+burns on a conformal coated circuit board. These
+gaseous vapors can penetrate under circuit board
+coatings and cause major corrosion damage.
+
+3-11.3. POTTING COMPOUNDS. Potting compounds
+are used to encase a part or component, such as in an
+electrical connector. Generally, potting compounds
+are considered to be a good seal against moisture
+when correctly applied. Problems occur when potting
+compounds are cured too quickly, not mixed properly,
+or the surface is not cleaned completely. Aging of
+certain potting compounds can cause the potting
+compound to harden and become brittle, or soften and
+
+Table 3-2. Effects of Deterioration on Nonmetals
+
+LAIRETAM HCIHWOTKCATTAFOEPYT ELBITPECSUSSILAIRETAM
+FOECNARAEPPA
+NOITAROIRETED
+
+cilyrcA stnevlos,erutsiom,thgilVU gnikcarc,noitarolocsiD
+
+evisehdA erutsiom,tnevlos,thgilVU,triD gnileep,gnikcarC
+
+cimareC taehemertxE gnikcarc,noitarolocsiD
+
+htolC wedlim,toryrD tsud,sraet,noitarolocsiD
+
+gnitaoclamrofnoC ssehctarcs,erutsioM gnilbbub,gnikalf,gnileeP
+
+kroC toryrd,wedlim,erutsioM gnileep,tsud,noitarolocsiD
+
+remotsalE gnilcycevissecxe,thgilVU,taeH noitarolocsid,gnizarc,skcarC
+
+noitaluspacnE erutsiom,thgilVU gnidnobsid,gnileep,gnikcarC
+
+tleF wedlim,erutsioM ssenesool,noitarolocsiD
+
+ssalG )nekorb(egamadlacinahcem,taeH derolocsid,dekcarC
+setanimaL stnevlos,erutsiom,thgilVU noitanimaled,dnobsid,derolocsiD
+
+tniaP ytidimuh,taeh,erutsioM gnikcarc,gnileep,selbbuB
+
+citsalP noisarba,taeh,thgilVU noitamrofed,skcarc,noitarolocsiD
+
+sremyloP stnevlos,taehemertxE noitamrofed,noitarolocsiD
+
+sdnuopmoCgnittoP taeh,erutsiom,thgilVU noitamrofed,skcarc,noitarolocsiD
+
+)evisorrocnon(VTR taeh,thgilVU,erutsioM noitarolocsid,gnidnobed,gnileeP
+stnalaeS taeh,thgilVU,erutsioM noitarolocsid,gnidnobed,gnileeP
+
+
+
+3-18
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+revert. Usually, the process of potting involves the use
+of a mold to form the potting compound. These molds
+are made of plastic and may become the source of
+moisture intrusion. All molds should be removed after
+the potting compound has cured (refer to Volume III).
+
+3-11.4. LAMINATE CIRCUIT BOARDS. Laminate
+circuit boards typically use encapsulants or conformal
+coatings as sealers. In some cases, the laminate is not
+sealed along the edge or at the contact tabs. This
+allows the laminate board to absorb moisture and
+delaminate. Overcleaning with abrasive materials may
+damage the resin surface of the laminate board. High
+temperatures caused by the burning of a circuit
+component may char the laminate surface and increase
+moisture intrusion.
+
+3-11.5. RUBBERS AND ELASTOMERS. Rubbers and
+elastomers are used for insulation, seals, gaskets,
+caps, tubing, films, and coatings. Natural rubber, silicone
+rubber, and polyurethane are normally susceptible to
+attack by fungi, microbes, ozone and ultraviolet light.
+Polyurethane and silicone rubber are to some extent
+permeable to moisture.
+
+3-11.6. TAPES. Some pressure sensitive tapes are
+effective moisture barriers. Problems arise with cloth or
+paper-based tapes. These materials absorb moisture
+and support fungal attack. This is particularly true when
+wicking action takes place on the cloth or paper material.
+Some tapes deteriorate and outgas, emitting an acid
+that is corrosive to metals.
+
+3-11.7. OILS. The lubricants used in some electronic
+equipment are capable of minimizing moisture intrusion
+and corrosion attack. However, at high temperatures
+and pressures, oils can chemically react with impurities
+to produce acids. Oil can hold a limited amount of water.
+Excess water will separate from the oil if the holding
+capacity is reached at a given temperature.
+
+3-11.8. MATERIAL INCOMPATIBILITY OF
+NONMETALLICS. The complexity of modern aircraft
+and avionics makes it difficult to predict what problems
+may result from reactions between materials.
+Incompatibility of materials can cause deterioration of
+the nonmetallic substances. This may result in the
+release of chemicals or gases that react with other
+components. In some cases, cleaning solutions, high
+temperature, or lubricants will cause a reaction in
+nonmetallic substances. Common examples of
+nonmetallic materials incompatibility are as follows:
+
+3-11.8.1. Solvents. Some encapsulants, conformal
+coatings, and acrylic plastics soften or dissolve when
+they come in contact with cleaning solvents.
+
+3-11.8.2. Heat. The heating of conformal coatings for
+removal or repair may outgas corrosive vapors onto
+metal components. Shrinkage elastomers (heat-
+shrinkable tubing) can damage adjacent circuitry when
+heat guns are applied to shrink the tubing. Certain oils
+(such as silicones) and greases “creep” as temperature
+increases. This causes contamination of adjacent
+surfaces, degradation of organic coatings, and attraction
+of particulates.
+
+3-11.8.3. Acid Creation. Some commercial conformal
+coating strippers contain acids that attack PCB laminates
+and discolor or corrode copper. Certain room
+temperature vulcanizing (RTV) silicone sealants contain
+acetic acid that is highly corrosive to metal components
+(a list of authorized RTV silicone sealants is provided in
+Volume III). Degradation of polyvinylchloride (PVC)
+gives off acid fumes that are corrosive to most materials
+used in avionics. Some solid film lubricants contain
+uninhibited molybdenum disulfide which, with moisture
+and heat, may form sulfuric acid.
+
+3-11.8.4. Form Change. Some potting compounds
+revert to liquid form under certain conditions. This
+reversion causes a maintenance problem and reduces
+the moisture protection in electrical connectors.
+
+3-11.8.5. Oil and Lubricants. Application of conformal
+coatings, adhesives, and paint finishes is difficult when
+silicone oil film is present on base material. Some solid
+film lubricants containing graphite are corrosive. Graphite
+and moisture will promote galvanic corrosion in many
+metals. Some lubricants will attack neoprene, plastics,
+rubber, organic materials, and most paints.
+
+3-11.8.6. Plastics. Plastics can be damaged by solar
+heating and cosmic radiation. The damage is a visible
+darkening, discoloration, or color fading of the plastic.
+Lower pressures and vacuum can cause outgassing
+and loss of plasticizers/ flexibilizers. This can cause a
+change in structural properties such as loss of strength.
+The damage is appears as embrittlement and crazing
+of the surface, as well as loss of electrical properties.
+
+3-12. EFFECTS OF ENVIRONMENT ON
+CORROSION. Corrosion of aviation equipment occurs
+in both natural and man-made environments. In
+addition, the aircraft operational and maintenance
+environment contributes to unique corrosion conditions.
+
+
+
+3-19
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+Natural conditions in the environment which affect the
+corrosion process are moisture, temperature, salt
+atmospheres, ozone, sand, dust, and solar radiation.
+Corrosion may also be promoted by biological sources,
+including animals, insects, and microorganisms. Man-
+made conditions, which also affect the corrosion
+process, include industrial pollution, manufacturing
+operations, packaging, storage conditions, and
+shipment. By understanding these conditions,
+maintenance personnel will be better able to prevent
+aircraft damage.
+
+3-13. NATURAL ENVIRONMENTS.
+
+3-13.1. MOISTURE. Moisture is present in air as a gas
+(water vapor) or as finely divided droplets of liquid (mist
+or fog). It often contains contaminants such as chlorides,
+sulfates, and nitrates, which increase its corrosive effects.
+Moisture enters all areas of an aircraft that air can enter.
+Enclosed areas which are not sealed allow air to enter
+and leave as the pressure between the interior and
+exterior changes. These pressure differences occur
+when the aircraft changes altitude, when atmospheric
+pressure changes, and when the temperature of air
+inside an enclosed area changes.
+
+3-13.1.1. Condensed Moisture. Moisture will condense
+out of air when the air becomes too cool to hold all of the
+moisture in it. The dew found on aircraft after a cool night
+is the result of condensation. Condensed moisture
+usually evaporates as the surrounding air warms, but
+leaves contaminants, including salts, behind. This can
+result in the build-up of soils and salt contamination.
+Condensed moisture and its contaminants can also be
+trapped in close fitting wettable joints, such as faying
+surfaces. Some gasket and packing materials will absorb
+several times their weight in water and, when heated,
+can transmit this retained moisture into the sealed area.
+Moisture can accumulate in such areas through
+successive cycles of warming and cooling. In addition,
+moisture can be drawn along poor bond lines by capillary
+action (wicking). Temperature and humidity conditions
+can vary widely in separate sections of aircraft depending
+on the success of environmental sealing, condensation,
+and location near heat-generating equipment.
+
+3-13.1.2. Effect of Moisture. Electrolyte formation
+results from condensation of moisture. All non-metals
+absorb some moisture, which may cause changes in
+dimensional stability, dielectric strengths, ignition
+voltages, and volume insulation resistances. In general,
+organic matrix composites are adversely affected by
+moisture and may suffer a loss of strength and stiffness
+
+from exposure. Hermetic sealing (liquid and vapor
+proof at normal temperatures and pressures) is
+recommended for moisture-critical items such as
+capacitors and quartz crystals.
+
+3-13.2. SALT ATMOSPHERES. Salt forms a strong
+electrolyte when dissolved in water, which causes rapid
+corrosion of unprotected metal surfaces. The primary
+source of the world’s salt is the ocean, which is 3.5% to
+3.9% salt. Normal sea winds can carry from 10 to 100
+pounds of seasalt per cubic mile of air. Since dissolved
+salts are strong electrolytes, it is easy to understand
+why corrosion is such a severe problem in shipboard
+and coastal environments.
+
+3-13.3. OZONE. Ozone is a particularly active form of
+oxygen which is formed naturally during thunderstorms,
+by arcing in electrical devices, and by photochemical
+reactions in smog. When ozone is absorbed by
+electrolyte solutions in contact with metals, it increases
+the rate of corrosion. It also oxidizes many nonmetallic
+materials, being particularly harmful to natural and
+certain types of synthetic rubber. Rubber seals stored
+near welding equipment have experienced complete
+degradation.
+
+3-13.4. SOLAR RADIATION. The two ranges of solar
+radiation most damaging to materials are ultraviolet (the
+range that causes sunburn) and infrared (the range that
+makes sunlight feel warm). On earth, maximum solar
+radiation occurs in the tropics and equatorial regions,
+but considerable damage occurs in the temperate zones
+as a result of solar heating, photochemical effects, and
+combinations of these two phenomena. Non-metals,
+especially organic and synthetic materials, are strongly
+affected by sunlight. Both natural and synthetic rubber
+deteriorate rapidly when exposed to sunlight. After
+extended exposure, plastics darken, paints lose their
+protective characteristics, polymers undergo marked
+decreases in strength and toughness, and colors fade,
+removing essential color coding. Most electronic
+equipment is housed in enclosed structures and is
+protected from solar radiation. Extra care must be taken
+in the selection and surface treatment of parts, such as
+cables and harnesses, that are exposed to exterior
+environments.
+
+3-13.5. TEMPERATURE. High temperature either
+improves or impairs the performance of avionic
+equipment, depending on conditions. Corrosion and
+other harmful processes (outgassing, decomposition)
+increase as temperature rises. However, moderate
+increases in temperature may prevent condensation.
+
+
+
+3-20
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+Most fungus growth is inhibited by temperatures above
+104°F (40°C). Low temperatures pose no real threat of
+corrosion except that as temperature drops relative
+humidity rises. The greatest problem in extremely low
+temperatures, as in polar regions, is the shrinkage of
+seals and gaskets. This results in leakage and
+embrittlement of organic materials. If temperatures
+vary sufficiently, moisture may condense to form liquid
+water in the equipment. Similarly, the introduction of
+cooling air may cause condensation. If moisture
+intrusion occurs, subsequent freezing can cause the
+entrapped moisture to expand, resulting in structural
+damage.
+
+3-13.6. PRESSURE. Most military equipment is
+intended for service in low pressure (high altitude)
+environments. These environments create the familiar
+corona, arcing, and poor cooling problems in avionic
+equipment. Another problem is that of cyclic low and
+high pressures. These varying pressures create leaky
+seals and cause breathing. Breathing promotes
+condensation and creates a corrosive environment.
+Low pressure also causes outgassing (loss of volatile
+components, such as plasticizers) of plastics and other
+organic materials. Very low pressure causes changes
+to the physical and chemical properties of some
+materials.
+
+3-13.7. SAND, DUST, AND VOLCANIC ASH. Some of
+the least recognized contributors to corrosion are sand,
+dust, and volcanic ash. They often contain a number of
+tar products, ashes, and soot. Sand, dust and volcanic
+ash are hygroscopic and, when present on internal or
+external surfaces of aircraft or electronic parts, can
+absorb and hold moisture. This provides an electrolyte
+for corrosion and the growth of fungus. The presence of
+sand, dust or volcanic ash may also affect the operation
+of electrical contacts, prevent proper action of rotating
+motor-drive devices, and cause malfunctions of
+indicating instruments. Sand and dust are extreme
+problems in the deserts, since dry, powdery sand and
+dust are easily carried by wind. During sandstorms,
+they can penetrate sealed equipment as well as internal
+areas of airframes. In arid regions such as deserts,
+small sand particles are often blown as high as 10,000
+feet by the siroccos (hot, dust laden winds). Sand and
+dust on surfaces can cause an abrasive action when the
+surfaces are moved or vibrated. This removes the
+protective oxide coatings and leaves the metal exposed.
+Volcanic ash contains chlorides and sulfates, which
+are extremely corrosive in the presence of moisture.
+Although small amounts of sand, dust, or ash may be
+
+unnoticed by operating personnel, they may be
+sufficient to initiate or promote corrosion.
+
+3-13.8. CLIMATE. Warm, moist air, normally found in
+tropical climates, tends to accelerate corrosion. Cold,
+dry air, normally found in arctic climates, tends to
+reduce corrosion rates. Corrosion does not occur in
+very dry conditions. For this reason, desiccants are
+used in shipping containers to produce very dry local
+environments. The operational climate extremes have
+always been considered in aircraft design. However,
+certain areas within an aircraft, such as the cockpit and
+air conditioned equipment bays, may be subjected to
+climatic conditions very different from external areas of
+the aircraft. Relatively warm, dry air that has been
+cooled by air conditioners, thus reducing its ability to
+hold moisture, and ducted into interior areas of the
+aircraft, can release sufficient moisture to accelerate
+corrosion. It is imperative, therefore, to consider not
+only the operational environment but also the
+environments in which the equipment will be fabricated,
+transported, reworked, or repaired.
+
+3-13.8.1. Desert. The hot, wind-swept desert creates a
+severe maintenance problem because powdery dust
+can penetrate even supposedly sealed components.
+High daytime temperatures, high humidities (in areas
+such as the Persian Gulf), ultraviolet radiation, and fine
+dust are the four most serious, destructive elements of
+the desert climate. Nonmetallic materials suffer the
+most damage from the hot desert climates, where air
+temperatures during the day may reach 124°F (50°C).
+Temperatures inside closed containers may be 100°F
+(38°C) higher than external air temperatures.
+
+3-13.8.2. Temperate Zones. The temperate or
+intermediate climate zone encompasses most of the
+North American and European continents. These areas
+at various times of the year may approximate the
+extremes of polar, desert, or tropical temperatures and
+humidity. The temperate zone temperatures range from
+-25° to 59°F (-32° to 15°C) in the winter and from 59° to
+125°F (15° to 52°C) in summer. The relative humidity
+also fluctuates between five and 100%. The most critical
+areas are coastal locations: during the warm periods of
+the year the relative humidity approaches 100% at
+night and the air has high concentrations of salt.
+Moisture from this salt-laden air can condense on
+equipment during early evening and morning hours,
+thereby causing serious corrosion. Because of its
+relatively mild temperatures, the temperate zone is
+also the most heavily populated. Consequently, the
+
+
+
+3-21
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+smoke, smog, ozone, and corrosive fumes associated
+with heavy industry are also present.
+
+3-13.8.3. Tropics. The greatest challenge to the aircraft
+industry is the design of equipment that is protected
+from corrosion and deterioration in the heat and humidity
+that prevails in the tropics. Even though they
+encompass only a small portion of the earth’s land
+area, the tropics demand the greatest amount of
+consideration from the standpoint of corrosion treatment
+and control. The tropical environment is sustained by
+long periods of heavy rainfall, during which as many as
+100 inches of rain may fall. Relative humidities of up to
+100% at ambient air temperatures of 85°F (29°C) pose
+formidable threats of corrosion. When high humidity
+and temperature conditions are combined with salt-
+laden air, the corrosive environment becomes extremely
+severe. Extended periods of high heat and humidity
+contribute to rapid corrosion of metals, cracking and
+flaking of rubber and plastic materials, and deterioration
+of seals. Equipment, whether stored or in use, requires
+special protective containers and frequent preventive
+maintenance. Many items become covered with fungi in
+a matter of hours. For effective operation of electronic
+equipment in the tropics, special efforts must be made.
+The critical combination of high temperatures,
+condensation, high relative humidity, and contaminants
+such as salt and sand may cause catastrophic failure of
+equipment. Intensive preventive maintenance and the
+best possible protective techniques are necessary for
+aircraft and their components.
+
+3-14. BIOLOGICAL CORROSION.
+
+3-14.1. ANIMAL AND INSECT DAMAGE. Damage to
+aircraft and aircraft subsystems may be caused by
+insects, birds, and various small animals, especially in
+tropical environments. Equipment in storage is most
+susceptible to this type of attack. Insects and small
+animals may enter through vent holes or tears in
+packaging and sometimes build nests. They like to feed
+on various organic materials, such as polyethylene,
+insulation, and wire coatings, which can result in system
+or equipment failure. Another type of damage can occur
+when electrical insulation, varnishes, and circuit board
+coatings are eaten by insects. When bare wires or
+circuit components are exposed, more areas become
+available for corrosion and shorting to occur. Moisture
+absorbed by nests plus excretions from animals may
+cause corrosion and deterioration that goes unnoticed
+until equipment is put to use and fails. Damage may also
+occur when organic materials, such as upholstery, are
+shredded for nests or consumed as food.
+
+3-14.2. MICROORGANISMS. Microbial attack, as the
+term is used in this manual, includes the action of
+bacteria, fungi, or molds. Microorganisms are nearly
+everywhere and outnumber all other types of living
+organisms. Those organisms causing the greatest
+corrosion problems are bacteria and fungi (see
+Figure 3-30). Damage resulting from microbial growth
+can be caused by: (1) the tendency of the growth to hold
+moisture, which then causes corrosion; (2) digestion of
+the substrate as food for the microorganism; or (3)
+corrosion of the surface beneath the growth by secreted
+corrosive fluids. Modern avionic equipment, because
+of complexity, dense packaging, and higher sensitivity,
+is more susceptible to damage from microbes than
+earlier systems. Condensed moisture can provide
+conditions that promote the growth of molds, bacteria,
+and fungi. Once established, these growths continue
+to absorb and hold moisture. Acid secretions from the
+microorganisms are strong electrolytes. These
+electrolytes corrode the underlying metal. Some
+nonmetals provide nutrients that can accelerate growth.
+The presence of bacteria and fungi can readily be
+identified by damp, slimy, and bad smelling growths.
+These vary in color from black, bluegreen, green, to
+yellow. Table 3-3 lists some common materials and
+the corresponding effect of moisture and fungi.
+
+3-14.2.1. Bacteria. Bacteria may be either aerobic or
+anaerobic. Aerobic bacteria require oxygen to live.
+They can accelerate corrosion by oxidizing sulfur to
+produce sulfuric acid or by oxidizing ammonia to
+produce nitric acid. Bacteria living adjacent to metals
+may promote corrosion by depleting the oxygen supply
+or by releasing metabolic products. Anaerobic bacteria,
+on the other hand, can survive only when oxygen is not
+
+Figure 3-30. Biological Growth on Helicopter Wall
+
+
+
+3-22
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+present. The metabolism of these bacteria requires
+them to obtain food sources by oxidizing inorganic
+compounds such as iron, sulfur, hydrogen, and carbon
+monoxide. The resultant chemical reactions cause
+corrosion.
+
+3-14.2.2. Microbial Growth Requirements. Fungi make
+up one class of microorganism that feeds on organic
+matter. Low humidity levels will inhibit the growth of
+most species of fungi and bacteria. Ideal growth
+conditions for most fungi and bacteria are temperatures
+between 68° and 104°F (20° and 40°C) and relative
+humidities between 85 and 100%. It was formerly
+believed that microbial attack could be prevented by
+applying moisture-proof coatings to nutrient materials
+
+or by drying the interiors of compartments with
+desiccants. However, some moisture-proof coatings
+are attacked by microorganisms, especially if the
+surface on which they are used is already contaminated.
+Some microorganisms can survive in spore form for
+long periods while dry, and can become active when
+moisture is available. When desiccants become
+saturated and unable to absorb moisture in the affected
+area, microorganisms can begin to grow. Dirt, dust,
+and other airborne contaminants are the least
+recognized contributors to microbial attack. Unnoticed,
+small amounts of airborne debris may be sufficient to
+promote fungal growth.
+
+Table 3-3. Effects of Moisture and Fungi on Various Materials
+LAIRETAMROTRAP TCEFFE
+
+stroppus,srehsaw:rebiF nignitluser,ngilasimottroppusehtsesuactahtgnillewssesuacerutsioM
+.ignufybdeyortseD.strapdetroppusfognidnib
+
+srotalusni,spirtslanimret:rebiF .klatssorcdnasrevohsalfgnisuac,shtapegakaellacirtcelesmroferutsioM
+.ignufybdeyortseD.tsoleraseitreporpgnitalusnI
+
+,sdraob,spirtslanimret:scitsalpdetanimaL
+liocdnastekcosebut,slenapdraobhctiws
+
+srotcennocdna,smrof
+
+esuacshtapegakaeL.tsolebotseitreporpgnitalusnisesuacerutsioM
+dnaecafrusnoworgignufdnasrucconoitanimaleD.klatssorcdnasrevohsalf
+
+erutarepmetemertxerednunoitcartnocdnanoisnapxE.segdednuora
+.segnahc
+
+,sdraoblanimret:scitsalpdedloM
+ebut,rotcennoc,slenapsdraobhctiws
+
+smrofliocdnastekcos
+
+,ignuffosretroppuserasecafrusfosegdednuorgro,dewas,denihcaM
+neewtebecnatsisersecuderhtworglagnuF.srevohsalfdnastrohsgnisuac
+
+.sselesuerastrapehttahttnetxenahcusotcitsalpnodetnuomstrap
+
+esolullecdna,repap,nenilnottoC
+,gnibbew,sgnirevoc,noitalusni:sevitavired
+
+scirtceleid,snoitanimal,gnitleb
+,seitreporpcirtceleiddnagnitalusnifotnemeriapmirossolsesuacerutsioM
+
+.ignufybdeyortseD.klatssorcdna,srevohsalf,gnicragnisuac
+
+citsalp,sgnisuohdnasesuoh,sesac:dooW
+stsam,srellif .ignufdnaerutsiomybdesuaceranoitanimaleddna,gnillews,toryrD
+
+steksag,sesac,sparts:rehtaeL gnisuac,slairetamevitcetorpdnagninnatyortsedignufdnaerutsioM
+.noitaroireted
+
+swodniw,sesnel:ssalG
+.stcesnidaeddnaseceftcesni,kcarttcesni,tsudcinagronoworgignuF
+
+ybraenedorrocdnaytilibisiverucsbossalgnohtworglagnufdnasetimdaeD
+.straplatem
+
+noitangerpmirof:xaW
+esuac,ignuffohtworgehttroppusnaelctoneratahtsexawgnitibihni-ignuF
+
+foecnartnetimrepdna,seitilauqevitcetorpdnagnitalusnifonoitcurtsed
+.stiucriclacirtcelesecnalabnudnastrapsyortsedtahterutsiom
+
+slateM
+
+dnasugnuF.noisorrocdiparesuacropaverutsiomdnaerutarepmethgiH
+,noisorrocdeepstahtstcudorprehtodnadicaecudorphtworglairetcab
+
+gnivomfonoitarepoehthtiwserefretnisihT.noitadixodna,secafrusfognihcte
+riarosetalp,sroticapac,slanimretneewtebtsudsesuacdna,swercs,strap
+
+.srevo-cradna,ytivitisnesnissol,esionesuacyamnrutnihcihw,sresnednoc
+
+ralimissid,lateM ,tneserpsierutsiomnehW.slaitnetopnoisorroctnereffidevahyamslateM
+.sedorroc)edona(slatemehtfoeno
+
+stniojderedloS pusdeepshcihw,erutsiomsdlohsdraoblanimretnoxulfgniredloslaudiseR
+.ignuffohtworgdnanoisorroc
+
+
+
+3-23
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+3-14.2.3. Microbial Nutrients. Since fungi, bacteria,
+and other microorganisms are classified as living, it was
+previously thought that only materials derived from
+living organisms could provide food for microorganisms.
+Thus, wool, cotton, feathers, and leather are known to
+be microbial nutrients. To a large extent this rule of
+thumb is still valid, but the increasing complexity of
+synthetic materials makes it difficult, if not impossible, to
+determine from the name alone whether a material will
+support growth of microorganisms. Many otherwise
+resistant synthetic materials are rendered susceptible
+to microbial attack by the addition of chemicals, which
+change the properties of the material. In addition,
+different species of microorganisms have different
+growth requirements. The service life, size, shape,
+surface smoothness, cleanliness, environment, and
+species of microorganism involved all determine the
+degree of microbial attack on the affected item.
+
+3-15. MAN-MADE ENVIRONMENTS.
+
+3-15.1. INDUSTRIAL POLLUTANTS. Carbon from
+internal combustion engine exhaust, nitrates from
+agricultural fertilizers and industrial processes, ozone
+from electrical motors and welding operations, sulfur
+dioxide from engine exhaust and industrial and ship
+smoke stacks, and sulfates from automobile exhaust
+are significant pollutants. Corrosive solutions form when
+these contaminants are absorbed by condensed
+moisture. Many of the fumes and vapors emitted by
+ships and from factories can greatly accelerate metal
+corrosion. Industrial atmospheres may exist over large
+areas, since wind may carry these corrodents many
+miles from their source. The combination of these
+pollutants contributes to the deterioration of non-metallic
+materials and severe corrosion of metals.
+
+3-15.2. MANUFACTURING, ASSEMBLY AND
+REPAIR. During the manufacture, assembly, or repair
+of aircraft and subsystem components, many factors
+that might lead to corrosion may be introduced. The use
+of unsuitable materials and improper material processing
+can cause corrosion. Shearing or hole-punching
+operations on some metal alloys, especially high-
+strength aluminum, may introduce stresses that
+eventually lead to corrosion. Assembly or repair of
+avionic components in areas contaminated by fumes or
+vapors from adjacent operations (such as welding,
+paint spraying, and solvent cleaning) may result in
+entrapment of fumes in the equipment and may cause
+corrosion. Air conditioned avionic shops are inherently
+lower in temperature than surrounding spaces. In
+shops without humidity control, the air conditioning
+system can create condensation. This is of particular
+
+concern after working hours because the absence of
+shop personnel (body heat) and the lack of heat
+generated by operating various equipment create lower
+temperatures. Thermostats should be adjusted to
+prevent excessive cooling and condensation after
+working hours.
+
+3-15.3. SOLDER FLUX CORROSION. The simple task
+of soldering a component in a circuit board can cause
+corrosion, often due to failure to remove flux residues.
+Most metals exposed to the atmosphere develop a thin
+film of oxide. This film is not visible and solder alone
+cannot dissolve it. During soldering operations, the
+addition of flux removes the oxide film and prevents
+further metal oxidation. Although most flux is burned
+away during the soldering process, some residues
+remain and must be removed. Residues from solder
+fluxes can degrade circuitry by causing solder joints to
+corrode, causing corrosive flux vapors that settle on
+adjacent components, reducing insulation resistance,
+changing the resistivity of the solder joint, and attracting
+dirt and other contaminants that may absorb moisture.
+Refer to ANSI/J-STD-001 for general solder information.
+Refer to ANSI/J-STD-004, -005, -006 for solder flux
+requirements for securing connections in electrical or
+electronic equipment. Refer to NAVAIR 01-1A-505
+(Navy), TO 1-1A- 14 (Air Force), or TM 55-1500-323-24
+(Army) for additional information on solder fluxes and
+soldering techniques.
+
+3-15.4. EQUIPMENT HANDLING. Equipment removed
+from aircraft for maintenance or inspection may be
+exposed to various environments. Equipment that
+requires handling or protection against the environment
+should be preserved and packaged accordingly. In
+some cases, special containers are furnished for the
+purpose of protecting the equipment. Where containers
+or special packaging are not furnished, steps shall be
+taken to provide the protection required. For example,
+a printed circuit board (PCB) that has been repaired but
+not coated with conformal coating requires protection
+against electrostatic discharge and contaminants. It
+should be placed in an antistatic bag and transported
+using a covered antistatic tote tray or fast pack from the
+repair station to the test bench. Components with
+conductive coatings shall be protected from abrasion,
+damage, and electrostatic discharge. Corrosion that
+develops as a result of improper handling or inadequate
+packaging, storage, and shipment is extremely
+destructive. Some of the same design characteristics
+that support corrosion in equipment on board aircraft
+also lead to deterioration in inadequately packaged,
+stored, and shipped components. All uninstalled avionic
+equipment should be preserved and stored in shock
+
+
+
+3-24
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+and moisture resistant packaging with an active
+desiccant. The following unacceptable conditions should
+be corrected:
+
+a. Equipment with a high replacement rate that is
+kept unprotected.
+
+b. Equipment moved on an open flat bed vehicle
+between the removing/installing activity and the repair
+shops that is unprotected.
+
+c. Equipment exposed to the environment awaiting
+transfer to the repair shop or depot activity that is
+unprotected.
+
+3-15.5. PACKAGING. Packaging is intended to protect
+equipment or components against corrosion,
+deterioration, and physical damage during transportation
+and storage. Avoid the use of unsuitable materials, or
+corrosion attack may occur as a result of improper
+packaging materials. Proper packaging techniques are
+not necessarily limited to the manufacturing or shipping
+activity but concern the shop technician as well. Certain
+woods, cottons, foams, and papers absorb moisture
+and are susceptible to mold and fungus attack. These
+materials, and shredded newspaper, excelsior, and
+fiberboard, may emit acidic vapors. Corrosive vapors
+are not only a product of wood but other incompletely
+cured organic materials such as glues, paints, varnishes,
+resins, and preservatives. Outgassing (decomposition)
+of organic materials such as adhesives, gaskets,
+sealants, wire insulation, sleevings, tubing, plastics,
+and circuit board varnishes also may produce corrosive
+organic acid vapors. When corrosive vapors are
+released in a confined space or in a piece of avionic
+
+Table 3-4. Effects of Airframe Fluid Intrusion
+
+DIULFFOEPYT TCEFFE
+
+leuFenignE .sremylopemosfognillewsrogninetfoS
+
+diulFciluardyH lacirtcelenosmlifevitalusnifonoitcudortni;noisehdagnitaocfokcaL
+.stcatnocrotcennoc
+
+stnacirbuL .slairetamteksagdnalaesemosskcattA
+
+tnalooCcirtceleiD .slaescinagroskcattA
+
+diulFgnici-itnA .gniriwlacirtcelenokcattadnanoitasnednocdesaercnI
+
+stnanimatnoCsuoeuqA
+)stnaccised,noitasnednoc,eniru,retaweerf(
+
+evisorroc;saeraeglibnisdiulffogniloopgnisuacnoitasnednocdesaercnI
+nosmlifevitalusnifonoitcudortni;selpuoccillatemibdetcetorpnufokcatta
+
+.secafrustcatnocrotcennoclacirtcele
+
+sdiulFecnanetniaM
+)sreppirts,srenaelc,stnegreted,stnevlos(
+
+gnikcarcdnasgnitaoccinagroemosfonoisehdadecuderro/dnagninetfoS
+.noitalusnieriwemosfo
+
+equipment, serious corrosion attack will occur in the
+presence of moisture. Instructions for proper packaging
+are given in MIL-STD-2073-1.
+
+3-15.6. STORAGE. Even traces of corrosive vapor in
+packages containing aircraft parts may result in serious
+corrosion. Moreover, the natural breathing of packages
+may introduce moisture into the parts and equipment.
+Some packing materials have been known to decompose
+and emit corrosive vapors during periods of prolonged
+storage. Avionic equipment should not be stored in
+wooden boxes, fiberboard containers, or vented
+containers, especially during air shipment. Refer to
+NAVAIR 15-01-500 (Navy), TM 743-200-1 (Army), or
+T.O. 1-1-17 (Air Force) for additional storage information.
+
+3-15.7. SHIPMENT. During shipment, materials such
+as plastics and lubricants are often exposed to
+environments that were not considered during the design
+stage. Materials shipped by air are subjected to changes
+in atmospheric pressure and can lose volatile
+components by outgassing. The vibration and
+mechanical shocks associated with shipment by truck
+can damage protective coatings or platings. Shipment
+by ocean vessel may expose the equipment to corrosive
+marine environments, vibrations and shock from engines
+or sea conditions, and residual corrosive vapors from
+previous shipments. Equipment should be properly
+packaged in accordance with MIL-STD-2073-1 to
+minimize damage during shipment. Packaging
+damaged during shipment should be repaired as soon
+as possible.
+
+3-15.8. AIRCRAFT FLUIDS. Many fluids can be
+present in various areas of an airframe. Table 3-4 lists
+
+
+
+3-25
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+the types of fluid intrusion and the possible effects.
+Some of these fluids are corrosive to metals, while
+others are destructive to seals. The destruction of
+seals may lead to fluid penetration into areas that are
+considered protected. Some fluids are from external
+sources, while others are present due to internal leaks
+or servicing spills.
+
+3-15.9. OPERATIONAL AND MAINTENANCE
+ENVIRONMENT. All personnel should familiarize
+themselves with their local environment, such as
+moisture, temperature, atmospheric pressure, salt,
+water, sand, and dust. The type of aircraft, aircraft
+mission, and ground operations also influence the rate
+of corrosion.
+
+3-15.9.1. Type of Aircraft. Fixed-wing and rotary-wing
+aircraft have some airframe flexibility, which results in
+seal deterioration. This allows moisture/fluid intrusion.
+Vulnerable areas include gaskets on access doors/
+panels; fuselage flexure points; vents, ducts, and static
+pressure sensors; equipment bay door and
+electromagnetic interference (EMI) gaskets; radome
+and antenna seals; and opening for steps.
+
+3-15.9.2. Effects of Aircraft Mission. A number of field
+corrosion problems are a result of the mission of the
+aircraft. For example, during a search and rescue (SAR)
+operation, helicopter flights are performed with the
+doors and windows open for optimum visibility. This
+causes water to enter the cabin, bilge areas, and lower
+mounted avionic equipment. During low-level over water
+
+flights involved in anti-submarine warfare (ASW),
+moisture is introduced into aircraft via the fine ocean
+spray prevalent at lower altitudes. This moisture
+saturates wiring harnesses, connectors, antennas,
+waveguides, and switches, and causes frequent
+equipment failure. Flight operations in tropical
+environments can produce conditions that support the
+growth of fungus and other microorganisms.
+
+3-15.9.3. Protection of Aircraft During Ground
+Operations. Equipment can also be damaged during
+maintenance periods. Many problems are encountered
+while aircraft are parked. In general, the majority of
+aircraft ground time is spent with the aircraft opened up
+or unbuttoned. It is often necessary for canopies and
+access panels to be open during certain maintenance
+functions. This produces situations where moisture,
+rain, or ocean spray may soak cockpit and internal
+avionic components. Inspection and timely corrosion
+control is essential for proper operation and full life
+cycle. Maintenance operation time varies widely between
+types of equipment and depends largely on reliability
+and troubleshooting time. Most front-line combat aircraft
+average 1 to 2 hours per day in flight operations. In
+some cases, aircraft may be nonoperational for extended
+periods while waiting for spare parts. This increases the
+vulnerability of the entire system to corrosion. Some of
+the potential problems associated with increased
+maintenance operation time are as follows:
+
+a. The avionic system(s) involved may be open
+(radomes up, equipment bay doors open, canopies
+raised) for extended periods.
+
+b. Maintenance may damage seals and the locking
+integrity of fasteners, scratch protective finishes, and
+otherwise impart wear and tear to the aircraft.
+
+c. Components may be moved several miles and
+exposed to the environment between the removing/
+installing activity and the repair shops.
+
+3-25/(3-26 Blank)
+
+
+
+3-26
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+THIS PAGE LEFT INTENTIONALLY BLANK
+
+
+
+Glossary-1
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+GLOSSARY
+
+A
+
+A-SCAN - A data presentation method for ultrasonic
+inspection. Data is displayed on a cathode ray tube
+(CRT). Sound energy amplitude is plotted on the vertical
+axis and distance (or time of flight) on the horizontal
+axis.
+
+Abrade - To prepare a surface by roughening through
+sanding or mechanical means.
+
+Accelerator - A compound that hastens a reaction,
+especially one that reduces the curing or hardening
+time of compounds.
+
+Acetic Acid - A clear, colorless organic acid with a
+distinctive sharp odor (e.g. vinegar). Sometimes used
+as a solvent.
+
+Acidic - Acid forming or having acid characteristics.
+
+Active Metal - A metal ready to corrode, or being
+corroded.
+
+Additive - A substance added in small amounts to
+something else for a particular purpose. For example,
+substances are added to fuel and lubricants to prevent
+corrosion, gum formation, varnishing, sludge formation,
+or knocking.
+
+Adhesion - The chemical and/or mechanical bonding
+of a material to a surface.
+
+Adhesion Promoter - A material applied to a surface
+to chemically enhance the adhesion of a paint or
+sealant to the surface.
+
+Adhesive - Substance capable of holding materials
+together by surface attachment. Adhesive is a general
+term for glue, cement, or paste.
+
+Aeration Cell - An electrolytic cell in which the driving
+force results from a difference in the amount of oxygen
+in solution from one point to another. Corrosion is
+accelerated in areas where the oxygen concentration is
+least; for example, in a stuffing box or under packing.
+
+Aerobic - A process which occurs in the presence of
+oxygen.
+
+Air Curing - Thermosetting or curing at ordinary room
+temperature without the addition of heat.
+
+Aircraft Controlling Custodian - Navy command
+responsible for specific aircraft (AIRLANT, AIRPAC,
+CNAVRES, CNATRA, or NAVAIR).
+
+Alkaline - Having a pH of more than 7.
+
+Alloy - A combination of two or more metals.
+
+Anaerobic - A process which occurs in the absence of
+oxygen.
+
+Anion - A negatively charged ion that migrates toward
+the anode in an electrolyte. The chloride ion in sea water
+is an anion.
+
+Anode - The positively charged electrode of an
+electrolytic cell at which oxidation or corrosion occurs.
+It may be a small area on the surface of a metal or alloy,
+such as that where a pit develops, or it may be the more
+active metal in a cell composed of two dissimilar metals,
+(i.e., the one with the greater tendency to go into
+solution).
+
+Anodize - Application of a protective oxide film on a
+metal (such as aluminum) through an electrolytic
+process. This layer provides protection from corrosion
+and is a good base for paint.
+
+Anodic Protection - Formation of a protective film on
+metals by externally applied anodic current. A
+potentiostat is used to maintain the potential difference
+between the metal and a reference electrode. At
+somewhat higher values of potential, the current drops
+to a very low value, the metal becomes passive, and
+corrosion is greatly reduced.
+
+Application Time - The length of time after mixing that
+sealant remains suitable for application to the substrate.
+
+Aqueous - Relating to, like, containing, or dissolved in
+water.
+
+Assembly Time - The maximum length of time after
+mixing or thawing that sealant remains suitable to
+assemble parts, including final tightening of fasteners,
+to assure proper sealing.
+
+
+
+Glossary-2
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+Atomization - The formation of tiny droplets of liquid, as
+in the paint spraying process.
+
+Austenitic - A form of stainless steel that is essentially
+nonmagnetic and not hardenable by heat treatment.
+Austenitic stainless steels have the highest corrosion
+resistance of any of the steel alloys.
+
+B
+
+Base Compound - The major component of a two-part
+curing-type sealant that contains the polymer (usually
+referred to as Part B).
+
+Bilge - The lowest point of an aircraft’s inner hull. This
+area is where cable runs, wire bundles, coaxial cables,
+lights, and antennas are typically installed.
+
+Bleeding - A defect in which pigment from a lower coat
+of paint diffuses into an upper coat and discolors it.
+
+Brush Coat - The thin coating of sealant usually applied
+over fasteners, seams, and various parts and small
+openings.
+
+C
+
+Capillary Action - The action by which the surface of a
+liquid, in contact with a solid, is raised or lowered. This
+is caused by the relative attraction of the liquid molecules
+for each other (surface tension) and those of the solid.
+The “wicking” of a fluid up a cloth is an example of
+capillary action.
+
+Carbonize - To reduce or convert into carbon, usually
+by high heat or partial burning.
+
+Cathode - The negatively charged electrode of an
+electrolytic cell, where the action of the corrosion current
+causes a reduction reaction. This results in the nearly
+complete elimination of corrosion.
+
+Cation - A positively charged ion of an electrolyte which
+migrates toward the cathode. Metallic ions, such as iron
+or copper, are cations.
+
+Cathodic Protection - Corrosion protection achieved
+by supplying electrons to the metal to be protected. The
+source of the protective current may be a sacrificial
+metal, such as magnesium, zinc, or aluminum, which
+creates a galvanic coupling. The current may also be
+supplied by a power source (rectifier, generator, or
+battery) attached to an appropriate anode and the metal
+
+to be protected. As the current passes to the metal,
+corrosion is suppressed.
+
+Catalyst - The component of a two-part curing-type
+sealant that causes the polymer to react.
+
+Caustic Embrittlement - Aluminum and its alloys are
+rapidly attacked by even dilute alkali solutions. The
+result of the combined action of tensile stress and
+corrosion due to the alkali solution causes caustic
+embrittlement.
+
+Cavitation - The sudden formation and collapse of low
+pressure bubbles in a liquid stream by means of
+mechanical forces. Cavitation is often encountered
+around propellers, rudders, struts, and in pumps.
+
+Cell - In corrosion processes, a cell is a single unit of
+electrolysis that is responsible for corrosion. It consists
+of an anode and a cathode immersed in an electrolyte
+and electrically joined together. The anode and cathode
+may be two separate metals or dissimilar areas on the
+same metal.
+
+Chalking - Deterioration of an organic coating during
+exposure to the environment that results in a powdery,
+chalky residue on the painted surface.
+
+Channel Seal - A seal formed by injecting a noncuring
+sealant material into a groove machined in one faying
+surface of the mating or overlapping structure after
+assembly.
+
+Checking - Fine cracks in a surface film due to excessive
+shrinkage of the film or expansion of the surface.
+
+Chemical Conversion Coating - A chemical treatment
+of a metal surface, such as aluminum or magnesium,
+which results in a protective (corrosion resistant) layer
+on the metal’s surface. Types of application include
+immersion, brushing, or spraying with the selected
+chemical solution. Coatings covered by MIL-C-5541
+are examples. The protective layer also greatly enhances
+paint adhesion
+
+Chlorides - Certain compounds of chlorine that are
+extremely corrosive. Most pitting corrosion is associated
+with chlorides. Many varieties are present in seawater
+and contribute to making seawater corrosive.
+
+Clean - Free from dirt or pollution.
+
+
+
+Glossary-3
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+Clear Water - Colorless water containing no visible
+suspended particles.
+
+Combustible Liquid - Any liquid capable of igniting
+and burning at or above 100°F, but below 200°F.
+
+Concentration Cell - An electrolytic cell consisting of
+an electrolyte and two electrodes of the same metal or
+alloy that develops a difference in potential as a result
+of a difference in concentration of ions (most often metal
+ions) or oxygen at different points in a solution.
+
+Conformal Coating - A closely adhering moisture and
+gas barrier applied to circuit boards to prevent corrosion
+and breakdown of electrical insulation.
+
+Corona - A faint glow adjacent to the surface of an
+electrical conductor at high voltage.
+
+Corrosion Fatigue - A reduction in the ability of a metal
+to withstand cyclic stress due to its exposure to a
+corrosive environment.
+
+Corrosion Rate - The speed of corrosion attack. It is
+usually expressed in terms of weight loss per unit of time
+or depth of penetration per unit of time.
+
+Couple - Two or more metals or alloys in electrical
+contact with each other. These usually can act as the
+electrodes of a cell if they are immersed in an electrolyte.
+
+Cracking - (1) Breaking of a metal or alloy in a brittle
+fashion along a narrow path or network. (2) Localized
+breaking of a paint film to expose the underlying material.
+
+Crazing - The formation of surface cracks, often as a
+fine network, that changes the properties of the film.
+Crazing does not usually penetrate into the underlying
+surface.
+
+Crevice Corrosion - Corrosion occurring within a
+crevice. The crevice may be formed at the mating
+surfaces of two or more parts of the same or different
+metals, or by a metal and nonmetallic material. Stainless
+steel and aluminum alloys are particularly susceptible
+to crevice corrosion. Crevice corrosion is an example of
+concentration cell corrosion.
+
+Critical Avionic Components - Miniature or
+microminiature circuits, including the components,
+printed circuit boards, tunable coils, tuned circuits, and
+devices with gold/silver plated connectors or contacts.
+
+Critical Humidity - The relative humidity, under a
+specific set of conditions, at which a metal or an alloy will
+begin to corrode. In the presence of hygroscopic
+(moisture absorptive) solids of corrosion products, the
+critical humidity will be lowered. For example, steel will
+not corrode if the relative humidity is less than 30% in a
+marine atmosphere.
+
+Cure - The process by which a coating or sealant is
+converted from the liquid to the solid state. Enamel
+paints cure; lacquers do not cure.
+
+Cure Rate - The length of time required for a coating or
+sealant to obtain the minimum hardness required by the
+specification.
+
+D
+
+Deionized Water - Water which has had various organic
+and inorganic materials removed by means of an ion
+exchange process.
+
+Deposit Attack - When foreign material (dirt, corrosion
+products) is deposited on the surface of a metal, it may
+shield the metal from the oxygen necessary to regenerate
+a protective oxide layer. An oxygen concentration cell is
+formed, and serious corrosion may result.
+
+Desiccant - A drying agent which acts by absorbing
+moisture.
+
+Distilled Water - Water which has had various organic
+and inorganic materials removed by means of an
+evaporation and condensation (distillation) process.
+
+Dry to Tape - The drying time required to allow a coating
+the ability to resist marring by adhesive tape.
+
+Durability - Ability of components to function and
+sustain stresses in field service for a specified period of
+time with economical maintenance. This is measured in
+terms of minimum acceptable failure free lifetime (MFL)
+and expected maximum lifetime (EML) including repair
+(avionics components), and mean time between failure
+(MTBF) (aircraft components).
+
+E
+
+Elastomer - A synthetic material with the elastic
+properties of natural rubber.
+
+
+
+Glossary-4
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+Electrochemical Corrosion - Corrosion which occurs
+when current flows between cathodic and anodic areas
+on metallic surfaces.
+
+Electrode - A metal or alloy that is in contact with
+electrolyte and serves as the site where electricity
+passes in either direction between the electrolyte and
+metal.
+
+Electrolysis - Chemical changes, especially
+decomposition, in the solution or electrolyte due to the
+passage of an electric current. Its relation to corrosion
+arises only if the corrosion process alters the make-up
+of the electrolyte.
+
+Electrolyte - Any substance which, in solution or when
+fused, disassociates into electrically charged ions that
+render the liquid capable of conducting a current. Soluble
+acids, bases, and salts, such as sea water, are
+electrolytes.
+
+Electromagnetic Interference (EMI) - Radiation
+generated from electromagnetic fields which are
+produced by radar antennas, Radio Frequency (RF)
+antennas, shipboard transmitters, certain poorly
+designed avionics units, electric motors, and lightning
+and other natural effects. This type of radiation can
+interfere with aircraft avionics systems causing electrical
+malfunctions.
+
+Electromotive Force (EMF) Series - A list of elements
+according to their standard electrode potentials. The
+more negative the potential the greater the tendency of
+the metal to corrode. A hydrogen gas electrode is the
+standard reference and its potential is designated as
+zero. All potentials are positive or negative with respect
+to the hydrogen electrode. This series does not indicate
+rates of corrosion.
+
+Electronic Countermeasure - An offensive or defensive
+tactic using electronic or reflecting devices. It is used to
+reduce the military effectiveness of enemy equipment
+involving electromagnetic radiation.
+
+Electronic Warfare - Warfare directed at the electronic
+capabilities of the enemy, to detect and prevent hostile
+use of the electromagnetic spectrum. Electronic warfare
+includes electronic countermeasures and counter
+countermeasures.
+
+Electrostatic Spraying - A system of applying a coating
+in which the coating droplets from an air, air-assisted
+airless, or airless spray gun are given an electrical
+
+surface charge. These electrically charged droplets are
+attracted to an electrically grounded workpiece.
+
+Embrittlement - Severe loss of ductility in a metal alloy
+that results in a sudden, brittle fracture.
+
+Emulsion - One liquid dispersed throughout a second
+liquid with which the first liquid will not mix to form a
+homogeneous solution.
+
+Enamel - A paint having a high gloss finish.
+
+Encapsulant - The general term describing materials
+used to encase or fill a void to prevent the entrance of
+moisture or fungus. Conformal coatings, fungus-proof
+coatings, and potting compounds are all forms of
+encapsulants.
+
+Epoxy - A type of paint or resin, adhesive, or plastic
+noted for high mechanical strength, good adhesion, and
+resistance to solvents, acids, alkalis, and corrosion.
+
+Ester/Diester Oils - Oils containing synthetic materials
+known as esters or diesters, which are chemically
+formed by the reaction of an alcohol and an acid.
+Examples include jet engine oil (MIL-PRF-23699) and
+hydraulic oil (MIL-PRF- 83282). These synthetic oils
+can attack certain plastics and paints.
+
+Erosion Corrosion - Accelerated attack of a metal due
+to the relative movement between a fluid and the metal
+surface.
+
+Etching - The use of a chemical solution or primer to
+prepare a surface for priming or bonding by removing a
+layer of the base metal.
+
+Exfoliation - The separation of a material in flakes or
+layers.
+
+Expected Maximum Lifetime (EML) - The expected
+maximum period of time over which an avionics system,
+subsystem, module or component performs
+satisfactorily. This includes acceptable availability,
+operation, and support cost (specified number of repair
+cycles).
+
+Extrusion Grade Sealant - A higher viscosity (8,000 -
+16,000 poise) sealant designed for application by
+extrusion by a sealant gun. This grade is usually used
+for forming fillets and sealing vertical surfaces. Usually
+designated as a Class B sealant.
+
+
+
+Glossary-5
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+F
+
+Fairing - A shape that produces a smooth transition
+from one angular direction to another.
+
+Fatigue - The tendency of a material to fracture under
+repeated cyclic stressing.
+
+Faying Surface - The common surface between mating
+parts.
+
+Faying Surface Seal - A preassembled seal installed
+between two mating surfaces, used to prevent corrosion.
+In combination with fillet seals, faying surface seals
+prevent a leak path from extending through a faying
+surface into an interior area.
+
+Feathering - To spread out (as paint) especially around
+the edges of a particular area in order to blend in with
+adjoining matter and leave no clear lines of distinction.
+
+Filiform Corrosion - Corrosion that develops under
+coatings on metals, and appears as fine ragged hairlines,
+usually wavy or curved and randomly distributed.
+
+Fillet Seal - A primary seal applied at the meeting of two
+adjoining surfaces and along the edges of faying surfaces
+as a continuous bead after part assembly. It can be
+applied over, along the edges, and between mating
+parts.
+
+Film - A thin layer of material that may or may not be
+visible to the eye.
+
+Fish-Eyes - Craters distinguished by a center which
+consists of a uniform flat painted region, surrounded by
+a depression, followed by a ridge of paint. Fish-eyes are
+caused by undispersed fluid globules in the paint or by
+airborne droplets that are deposited on the painted
+surface.
+
+Flammable Liquid - Any liquid having a flash point of
+100°F or less.
+
+Flashpoint - The minimum temperature at which a
+liquid gives off an ignitable vapor.
+
+Flat - A surface with minimal reflection. Flat is the
+opposite of gloss.
+
+Fretting Corrosion - Corrosion which occurs at the
+interface of two mating surfaces, under load and
+
+subjected to vibration and slip. The relative motion
+between the two surfaces is extremely small.
+
+Fungus - A group of parasitic lower plants that feed on
+dead or decaying organic matter. Includes molds,
+mildews, smuts, mushrooms and some bacteria.
+
+G
+
+Galvanic - A chemical reaction involving two dissimilar
+metals which produces direct current electricity.
+
+Galvanic Corrosion - The accelerated corrosion of a
+metal that is associated with the flow of electrons from
+a less active metal in the same solution and in contact
+with the more active metal.
+
+Galvanic Couple - A closed electric circuit of two
+connected dissimilar metals joined by an electrolyte.
+
+Galvanic Series - A list of metals and alloys arranged
+in order of their tendency to corrode in a given
+environment. The galvanic series is a more accurate
+predictor of galvanic relationships than the electromotive
+force (EMF) series.
+
+Gloss - The degree to which a surface reflects light.
+Gloss is the opposite of flat.
+
+H
+
+Hazardous Material - A material which may pose a
+threat to human health or the environment when
+improperly handled or disposed of.
+
+Hazardous Waste - Waste which is characterized by
+the Environmental Protection Agency (EPA) as 1)
+ignitable, 2) corrosive, 3) reactive, or 4) toxic, as defined
+in 40 CFR 261, or is a listed hazardous waste identified
+in that regulation.
+
+Hydrogen Embrittlement - Loss of ductility of a metal
+caused by the absorption of hydrogen ions. Hydrogen
+may be generated as a by-product of corrosion or
+through various manufacturing operations (cleaning,
+plating). High strength steel alloys are most susceptible
+to hydrogen embrittlement.
+
+Hygroscopic - The property of readily absorbing and
+retaining moisture.
+
+
+
+Glossary-6
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+I
+
+Impingement Attack - A form of erosion corrosion that
+is associated with turbulent flow of a liquid, as at the
+entrance of a condenser tube or around bends in a pipe
+line. Air bubbles can accelerate impingement attack.
+
+Inhibitor - A chemical substance or mixture which,
+when added in small amounts to a solution, markedly
+decreases corrosion.
+
+Inorganic Coating - A coating composed of matter
+other than of plant or mineral origin (e.g. electroplate,
+chemical conversion, anodize, phosphate or oxide).
+
+Integral Fuel Tank - A load carrying structure of an
+aircraft that is completely sealed to provide fuel
+containment. It may exist as a cavity in a wing and/or the
+fuselage.
+
+Ion - An electrically charged atom, group of atoms, or
+molecule. The sign of the charge is positive in the case
+of cations and negative in the case of anions.
+
+L
+
+Lacquer - A paint that contains a synthetic resin and
+forms a film after solvent loss. The film is susceptible to
+attack by the same or similar solvents used in the
+lacquer.
+
+Local Cell - A cell in which the driving force is due to a
+difference in potential between areas on a metal or alloy
+surface immersed in an electrolyte. The potential
+difference may be due to inclusions, lack of homogeneity,
+or varying concentration of the solution with respect to
+oxygen or metal ions.
+
+M
+
+Malfunction - Failure to function correctly, especially a
+failure causing a flight safety situation, a mission abort,
+or a failure to accomplish mission.
+
+Matte Surface - A surface with a dull finish, as in the
+case of an etched or sandblasted surface.
+
+Microbes - Microscopic living plants or organisms,
+such as germs or bacteria.
+
+Mil - One thousandth of an inch.
+
+Mill Scale - The heavy oxide layer formed during hot
+fabrication or heat treatment of metals. The term is most
+frequently applied to the scale of mixed iron oxides on
+iron and steel.
+
+Minimum Failure Free Lifetime (MFL) - The minimum
+period of time that an avionics system, subsystem,
+module or component performs satisfactorily without
+failure.
+
+Mottling - Appearance of spotting or blotches of different
+color or shades of coloring.
+
+N
+
+Nitrates - Compounds including certain combinations
+of nitrogen and oxygen. Present in many industrial
+pollutants.
+
+Noble Metal - A metal usually found as uncombined
+metal in nature, characterized by excellent corrosion
+resistance and high cost. Also called precious metals.
+Platinum, gold, and silver are noble metals.
+
+Noncritical Avionics Components - Any avionic
+component that is not critical to the function of the
+aircraft, such as tubes, tube sockets, resistors,
+mechanical devices, knobs, various macroelectronic
+components and hardware.
+
+Non-Destructive Inspection - An inspection method
+used to check the soundness of a material or a part
+without impairing or destroying the serviceability of the
+part. Examples are ultrasound, x-ray, and liquid
+penetrant.
+
+O
+
+Orange Peel - A surface bumpiness or waviness that
+resembles the skin of an orange. Orange peel is often
+caused by poor leveling and is a common defect in both
+spray and roll applied painted surfaces.
+
+Organic Coating - A coating composed of matter
+derived from living organisms or carbon containing
+compounds (e.g. paint, lacquer, plastic, grease,
+preservative).
+
+Outgassing - Emission of a gas during the cure or
+decomposition of organic material, usually increased in
+rate by higher temperatures.
+
+
+
+Glossary-7
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+Overspray - Sprayed paint that misses the area being
+painted and falls upon the surrounding surface.
+
+Oxidation - (1) A chemical reaction in which the atoms
+in an element lose electrons. Any corrosion process
+involves oxidation of the metal in a true chemical sense.
+(2) The combination of a metal with oxygen which
+produces oxides, e.g. the scaling of steel at high
+temperatures.
+
+Ozone - A triatomic (O3) form of oxygen formed naturally
+from diatomic oxygen by electric discharge or exposure
+to solar ultraviolet radiation. The generation of the
+ozone layer in the upper atmosphere helps to minimize/
+reduce the amount of harmful ultraviolet radiation
+produced by the sun. Ozone is an unstable, powerfully
+bleaching, poisonous oxidizing agent used to purify and
+deodorize air and sterilize water.
+
+P
+
+Passivation - The process or processes that cause a
+metal to become inert to a given corrosive environment.
+Passive metals have a very low corrosion rate.
+
+Peel - A method of separating a bond of two materials,
+where the flexible material is pulled from the mating
+surface at a 90° or 180° angle.
+
+Phantom Gripe - An intermittent malfunction or failure
+which cannot be verified/identified for corrective action.
+
+pH - A term used to express the effective hydrogen ion
+concentration of a solution. Values range from 0 to 14.
+A pH of 7 indicates a neutral solution. Values lower than
+7 indicate an acidic solution, while values greater than
+7 indicate a basic solution.
+
+Pitting - A form of extremely localized attack that
+eventually results in holes in the metal. Pits may vary
+from deep cavities of small diameter to relatively shallow
+depressions. Pits may be isolated or so close together
+that they look like a rough surface.
+
+Plasticizer - A chemical added to rubber or resins to
+impart flexibility and keep them soft and pliable.
+
+Polyethylene - A thermal plastic (softens with heat)
+characterized by high impact strength and high electrical
+resistivity. One of several plastics used for wire coating,
+it is also used to create film and sheets for packaging.
+
+Polyurethane - A type of paint or resin known for its
+toughness, flexibility, weather resistance, chemical
+resistance, and abrasion resistance. Commonly used
+to make topcoats.
+
+Pot Life - The usable or sprayable life of a coating or
+sealant after mixing has occurred.
+
+Potentiostat - An electronic device that maintains a
+metal at a constant potential with respect to a reference
+electrode.
+
+Potting Compound - A poured material which cures to
+a hard rubberlike consistency and creates a seal. It
+adds moisture resistance and vibration resistance to
+the item.
+
+Powder Coating - A coating that is applied to the
+surface as a dry, finely ground powder and then heated
+above its melting point so that the powder particles flow
+together or cure.
+
+Primer Coat - The first coat of a protective paint system.
+Originally applied to improve adherence of succeeding
+coat(s), it now usually also contains a corrosion inhibitor.
+
+R
+
+Relative Humidity - The ratio (expressed as a percent)
+of the actual moisture content of the air relative to the
+maximum moisture content of the air fully saturated at
+the same temperature.
+
+Retarders - A solvent added to a paint to slow down its
+evaporation rate.
+
+Reversion - The process in which a cured material
+reverts toward its precured condition, e.g. a cured
+potting compound reverts to a sticky, liquid-like
+consistency.
+
+Room Temperature Vulcanizing (RTV) - A process for
+treating or curing of synthetic rubber or plastic materials
+which occurs at room temperature.
+
+S
+
+Sacrificial Anode - A metal that is anodic to the metal
+being protected. It corrodes preferentially when
+galvanically coupled to the protected metal and is
+consumed (sacrificed) during protection.
+
+
+
+Glossary-8
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+Seal - An adhesive agent, such as sealant, used to
+close or secure parts to prevent leaks. Seals may also
+be created by compressive interference, such as O-
+rings, plugs, and interference fit fasteners.
+
+Sealant - A continuous thick film, with low cohesive
+strength, which prevents the passage of liquids or
+gasses.
+
+Shelf Life - The length of time an unopened container
+can be stored at the recommended storage temperature
+and still retain the properties required by the specification.
+
+Solvent - A liquid substance capable of dissolving or
+dispersing another substance.
+
+T
+
+Tack-Free Time - The length of time required for a
+curing sealant to lose its surface tackiness.
+
+Thixotropic - A property of certain gels to liquefy when
+shaken or stirred and then return to a hardened state
+upon standing.
+
+Titration - A method or process of determining the
+concentration of a dissolved substance by adding to it
+a standard reagent of known concentration in carefully
+measured amounts until a reaction (color change or
+electrical measurement) is completed.
+
+Top Coat -The final paint film applied to a surface.
+
+Total Environment - The circumstances and conditions
+which surround and influence the equipment. The total
+environment includes manufacturing, storage, shipping,
+mission, maintenance, and repair.
+
+U
+
+Ultraviolet (UV) Light - Light of a wavelength band
+shorter than visible light but longer than X-ray radiation.
+Longer wavelength UV from the sun causes sunburn.
+Shorter wavelength UV from unfiltered UV lamps can
+damage unprotected eyes.
+
+Unacceptable Response - A detrimental abnormality
+in system performance.
+
+Undesirable Response - A tolerated interruption of
+normal performance.
+
+Uniform Surface Corrosion - Corrosive etching of
+metal involving only the surface.
+
+V
+
+Viscosity - The degree to which a fluid resists flow
+under an applied force.
+
+Void Seal - A seal used to fill holes, channels, and other
+voids in a fuel tank. The void seal provides continuous
+sealing, while a fillet seal would be interrupted by
+structural gaps.
+
+Volatile Organic Compound (VOC) - Compounds in
+paints and solvents that dissolve into the air. VOC
+content is restricted in many materials due to
+environmental regulations.
+
+W
+
+Water Spotting - The change in surface appearance
+resulting from the action of water standing on the paint
+film or substrate. Spotting usually is caused by water
+sensitivity of the coating, although the defect can be the
+result of dissolved material deposited as water
+evaporates.
+
+Wet Edge - The ability of a wet coating to blend
+smoothly together in the overlap areas during application.
+
+Wet Installed Fastener - Fasteners that have sealant
+applied to the shank and under the head prior to
+installation to provide a corrosion barrier and secondary
+seal.
+
+Wrap Around - The phenomenon by which electrically
+charged paint droplets curve around the rear side of the
+object being painted.
+
+
+
+Index-1
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+INDEX
+
+A
+
+Aircraft Fluids ............................................ 3-15.8, T3-4
+Aircraft Preventive Maintenance Program.............. 2-4
+Aluminum and Aluminum Alloys,
+
+Effect of Corrosion on ........................ 3-10.1, F3-23
+Animal and Insect Damage................................ 3-14.1
+Anodized Aluminum, Effect of Corrosion on ...... 3-10.2
+Avionics Preventive Maintenance Program ............ 2-5
+
+B
+
+Bacteria ........................................................... 3-14.2.1
+Biological Corrosion .............................................. 3-14
+
+C
+
+Cadmium, Effect of Corrosion on ........... 3-10.7, F3-27
+Chemical Definitions ............................................... 3-5
+Chromium, Effect of Corrosion on .......... 3-10.8, F3-28
+Climate ............................................................... 3-13.8
+Condensed Moisture ....................................... 3-13.1.1
+Copper and Copper Alloys,
+
+Effect of Corrosion on ...................... 3-10.10, F3-29
+Corrosion Prevention Philosophy .................. 2-2, F2-1
+Corrosion
+
+Crevice ................................................ 3-9.6, F3-16
+Definition of ....................................................... 3-4
+Development of ................................................. 3-7
+Erosion ........................................................... 3-9.8
+Exfoliation ................................ 3-9.5, F3-14, F3-15
+Factors Influencing ............................................ 3-8
+Fatigue .............................................. 3-9.10, F3-19
+Filiform..................................... 3-9.7, F3-17, F3-18
+Fretting .............................................. 3-9.11, F3-20
+Galvanic ................................................ 3-9.2, F3-8
+Hot ......................................... 3-9.12, F3-21, F3-22
+Intergranular ................. 3-9.4, F3-11, F3-12, F3-13
+Metals Affected by .................................. 3-10, T3-1
+Pitting ........................................ 3-9.3, F3-9, F3-10
+
+Preventive Maintenance ................................... 2-3
+Stress .................................................. 3-9.9, F3-19
+Theory ............................................................... 3-6
+Types ................................................................. 3-9
+Uniform Surface .................................... 3-9.1, F3-7
+
+Corrosion Control Program ..................................... 2-6
+Maintenance ........................................................ 2-6.3
+Training ................................................................ 2-6.1
+Corrosion Resistant Steel,
+
+Effects of Corrosion on ................................. 3-10.5
+Corrosion-Related Failure Data Feedback ............. 2-7
+Crevice Corrosion ..................................... 3-9.6, F3-16
+
+D
+
+Degradation of Non-metals .......................... 3-11, T3-2
+Conformal Coatings ..................................... 3-11.2
+Encapsulants ................................................ 3-11.2
+Laminate Circuit Boards ............................... 3-11.4
+Oils ............................................................... 3-11.7
+Potting Compounds ...................................... 3-11.3
+Rubbers and Elastomers ............................. 3-11.5
+Tapes ........................................................... 3-11.6
+
+Development of Corrosion ...................................... 3-7
+
+E
+
+Effects of Aircraft Mission ............................... 3-15.9.2
+Effects of Airframe Fluid Intrusion ........................ T3-4
+Effects of Corrosion on Metals ............................. T3-1
+Effects of Deterioration on Nonmetals .................. T3-2
+Effects of Moisture and Fungi on
+
+Various Materials ............................................. T3-3
+Effects of Environment on Corrosion .................... 3-12
+Equipment Handling .......................................... 3-15.4
+Erosion Corrosion ................................................ 3-9.8
+Exfoliation Corrosion ..................... 3-9.5, F3-14, F3-15
+
+Subject Paragraph,
+Figure, or
+Table Number
+
+Subject Paragraph,
+Figure, or
+Table Number
+
+
+
+Index-2
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+F
+
+Factors Influencing Corrosion ................................. 3-8
+Fatigue Corrosion ................................... 3-9.10, F3-19
+Filiform Corrosion ......................... 3-9.7, F3-17, F3-18
+Fretting Corrosion ................................... 3-9.11, F3-20
+
+G
+
+Galvanic Corrosion ..................................... 3-9.2, F3-8
+Galvanic Series of Metals and Alloys ................... F3-4
+Gold and Gold Plating,
+
+Effect of Corrosion on ................................. 3-10.12
+Graphite/Carbon Fiber Composites ................... 3-11.1
+
+H
+
+Hot Corrosion .............................. 3-9.12, F3-21, F3-22
+
+I
+
+Incompatibility of Non-Metals ............................ 3-11.8
+Industrial Pollutants ........................................... 3-15.1
+Intergranular Corrosion ...... 3-9.4, F3-11, F3-12, F3-13
+Iron and Steel ..................................................... 3-10.4
+
+M
+
+Magnesium and Magnesium Alloys,
+Effect of Corrosion on ........................ 3-10.3, F3-24
+
+Maintenance and Readiness Data Collection ..... 2-7.2
+Maintenance Functions ............................... 2-5.3, F2-2
+Man-made Environments ...................................... 3-15
+Manual Change Procedures ................................... 1-8
+Manufacturing .................................................... 3-15.2
+Material Incompatibility of Nonmetallics ............ 3-11.8
+Materials ................................................................. 2-9
+Metals Affected by Corrosion ...................... 3-10, T3-1
+Microorganisms............................. 3-14.2, T3-3, F3-30
+Moisture ............................................................. 3-13.1
+
+Subject Paragraph,
+Figure, or
+Table Number
+
+Subject Paragraph,
+Figure, or
+Table Number
+
+N
+
+Natural Environments ........................................... 3-13
+Nickel, Effect of Corrosion on ............................ 3-10.9
+Non-metals, Degradation of ......................... 3-11, T3-2
+
+O
+
+Operational and Maintenance Environment ...... 3-15.9
+Ozone ................................................................ 3-13.3
+
+P
+
+Packaging .......................................................... 3-15.5
+Pitting Corrosion ............................. 3-9.3, F3-9, F3-10
+Pressure ............................................................. 3-13.6
+Preventive Maintenance ......................................... 2-3
+
+Aircraft Program ................................................ 2-4
+Avionics Program .............................................. 2-5
+
+Protection of Aircraft During
+Ground Operations .................................... 3-15.9.3
+
+Purple Plague .................................................. 3-10.12
+
+R
+
+Red Plague ...................................................... 3-10.11
+Reporting Errors and
+
+Improvement Recommendations ....................... 1-7
+Requisitioning and Automatic Distribution .............. 1-9
+
+S
+
+Safety ...................................................................... 2-8
+Materials Handling ......................................... 2-8.3
+Responsibility of Personnel ............................ 2-8.2
+Responsibility of Supervisors ......................... 2-8.1
+
+Salt Atmosphere ................................................ 3-13.2
+Sand, Dust, and Volcanic Ash ........................... 3-13.7
+Shipment ............................................................ 3-15.7
+Silver, Effect of Corrosion on ........................... 3-10.11
+
+
+
+Index-3
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+
+TO 1-1-689-1
+
+01 March 2005
+
+Subject Paragraph,
+Figure, or
+Table Number
+
+Subject Paragraph,
+Figure, or
+Table Number
+
+Solar Radiation .................................................. 3-13.4
+Solder Flux Corrosion ........................................ 3-15.3
+Specific Reporting Requirements ........................ 1-7.2
+Steel, Effect of Corrosion on ................... 3-10.4, F3-25
+Stainless Steel, Effect of Corrosion on .............. 3-10.5
+Storage .............................................................. 3-15.6
+Stress Corrosion ....................................... 3-9.9, F3-19
+Symbols ............................................................... 1-6.4
+
+T
+
+Temperature ...................................................... 3-13.5
+Theory of Corrosion ................................................ 3-6
+Tin .................................................................... 3-10.13
+
+Titanium, Effect of Corrosion on ............. 3-10.6, F3-23
+Training and Qualification Requirements ............ 2-6.2
+Type of Aircraft ............................................... 3-15.9.1
+Types of Corrosion ................................................. 3-9
+
+U
+
+Uniform Surface Corrosion ......................... 3-9.1, F3-7
+Usage and Conflicts ................................................ 1-6
+
+W
+
+Wording ................................................................ 1-6.3
+
+Index-3/(Index-4 Blank)
+
+
+
+Index-4
+
+NAVAIR 01-1A-509-1
+TM 1-1500-344-23-1
+TO 1-1-689-1
+
+01 March 2005
+
+THIS PAGE LEFT INTENTIONALLY BLANK
+
+
+	TITLE
+	LIST OF EFFECTIVE PAGES
+	TABLE OF CONTENTS
+	LIST OF ILLUSTRATIONS
+	LIST OF TABLES
+	TPDR
+	CHAPTER 1 - INTRODUCTION
+	Table 1-1. Outline of Manual - All Volumes
+	Table 1-2. Outline of Volume I
+
+	CHAPTER 2  - PREVENTIVE MAINTENANCE PROGRAM
+	Figure 2-1. Corrosion Prevention Program General Workflow Diagram
+	Figure 2-2. Basic Maintenance Functions
+
+	CHAPTER 3  - CORROSION THEORY
+	Figure 3-1. Simplified Corrosion Cell
+	Figure 3-2. Elimination of Corrosion by Application of an Organic Film to a Metal Surface
+	Figure 3-3. Effect of Sea Water on Galvanic Corrosion
+	Figure 3-4 . Galvanic Series of Metals and Alloys in Sea Water
+	Figure 3-5. Galvanic Corrosion in a Flashlight Battery
+	Figure 3-6. Effect of Area Relationship in Dissimilar Metal Contacts
+	Figure 3-7. Surface Corrosion on Frequency Test Set
+	Figure 3-8. Galvanic Corrosion of Magnesium Adjacent to Steel Fastener
+	Figure 3-9. Variations in the Cross-Sectional Shape of Corrosion Pits
+	Figure 3-10. Pitting of an Aluminum Wing Assembly
+	Figure 3-11. Cross-Section of 7075-T6 Aluminum Alloy
+	Figure 3-12. Scanning Electron Micrograph of a Corroding Aluminum Surface
+	Figure 3-13. Intergranular Corrosion of 7075-T6 Aluminum Adjacent to Steel Fasterner
+	Figure 3-14. Extreme Example of Exfoliation at Edge of Sheet
+	Figure 3-15. Exfoliation Adjacent to Fasteners
+	Figure 3-16. Crevice Corrosion Mechanisms
+	Figure 3-17. Filiform Corrosion Found Under Paint Coating on a Magnesium Panel
+	Figure 3-18. Schematic of the Development of Filiform Corrosion on an Aluminum Alloy
+	Figure 3-19. Cracking (Typical of Stress Corrosion or Corrosion Fatigue)
+	Figure 3-20. Fretting Corrosion
+	Figure 3-21. Hot Corrosion on Fasteners
+	Figure 3-22. Hot Corrosion on Engine Components
+	Table 3-1. Effects of Corrosion on Metals
+	Figure 3-23. Aluminum Surface Corrosion Products
+	Figure 3-24. Magnesium Corrosion Products
+	Figure 3-25. Steel Corrosion Products
+	Figure 3-26. Color Changes in Titanium Due to Heating
+	Figure 3-27. Cadmium Plated Surface Conditions
+	Figure 3-28. Failed Chromium Plate
+	Figure 3-29. Corroded Circuit Card
+	Table 3-2. Effects of Deterioration on Nonmetals
+	Figure 3-30. Biological Growth on Helicopter Wall
+	Table 3-3. Effects of Moisture and Fungi on Various Materials
+	Table 3-4. Effects of Airframe Fluid Intrusion
+
+	GLOSSARY
+	INDEX
+
