@@ -1,5 +1,6 @@
 class Publication < ApplicationRecord
   has_many :excerpts, dependent: :destroy
+  has_many :part_numbers
 
   after_create :extract_excerpts
 

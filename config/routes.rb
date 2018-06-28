@@ -7,6 +7,17 @@ Rails.application.routes.draw do
 
   scope '/api' do
     # resources :example
+    resources :excerpts do
+      collection do
+        get 'search'
+      end
+    end
+
+    resources :part_numbers do
+      collection do
+        get 'search'
+      end
+    end
   end
 
   get '*path', to: "application#fallback_index_html", constraints: ->(request) do
