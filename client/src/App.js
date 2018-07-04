@@ -5,6 +5,7 @@ import UserInfo from './components/UserInfo.js'
 import DocumentContentSearch from './components/DocumentContentSearch.js'
 import PartNumberCrossReference from './components/PartNumberCrossReference.js'
 import Elms from './components/Elms.js'
+import NotFound from './components/NotFound.js'
 import './App.css';
 // This is TOTALLY FAKE AUTHENTICATION
 import currentUser from './auth.js'
@@ -30,6 +31,7 @@ class App extends Component {
             <Route path="/document_content_search" component={DocumentContentSearch} />
             <Route path="/part_number_cross" component={PartNumberCrossReference} />
             <Route path="/elms" render={(props) => <Elms {...props} currentUser={currentUser} /> } />
+            <Route component={NotFound} />
           </div>
         </div>
       </Router>
