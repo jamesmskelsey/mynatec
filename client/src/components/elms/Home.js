@@ -37,7 +37,7 @@ class Home extends Component {
   }
   componentDidMount() {
     const {library} = this.state;
-    fetch(`http://localhost:3000/api/library/${library}`)
+    fetch(`/api/library/${library}`)
     .then((response) => response.json())
     .then((json) => {
       

@@ -22,12 +22,21 @@
     path: "sample2.pdf",
     pub_number: "01-1A-509-1"
   )
-  PartNumber.create!(number: "12345", niin: "013217654", publication_id: 1)
-  PartNumber.create!(number: "12345", niin: "013217654", publication_id: 2)
-  PartNumber.create!(number: "56789", niin: "013217654", publication_id: 1)
-  PartNumber.create!(number: "56789", niin: "013217654", publication_id: 2)
+  PUBONE = Publication.first.id
+  PUBTWO = Publication.second.id
+  PartNumber.create!(number: "12345", niin: "013217654", publication_id: PUBONE)
+  PartNumber.create!(number: "12345", niin: "013217654", publication_id: PUBTWO)
+  PartNumber.create!(number: "123421", niin: "013217654", publication_id: PUBONE)
+  PartNumber.create!(number: "freq532", niin: "013217654", publication_id: PUBTWO)
+  PartNumber.create!(number: "654dsa", niin: "013217654", publication_id: PUBONE)
+  PartNumber.create!(number: "8000001234", niin: "013217654", publication_id: PUBTWO)
+  PartNumber.create!(number: "18115156", niin: "013217654", publication_id: PUBONE)
+  PartNumber.create!(number: "8000003235", niin: "033237654", publication_id: PUBTWO)
+  PartNumber.create!(number: "qwety", niin: "033237654", publication_id: PUBONE)
+  PartNumber.create!(number: "asdf", niin: "033237654", publication_id: PUBTWO)
+  PartNumber.create!(number: "asdf3234", niin: "033237654", publication_id: PUBONE)
+  PartNumber.create!(number: "3234adsf", niin: "033237654", publication_id: PUBTWO)
 
-  
   Library.create!(
     account: "31N2 0002A",
     maintenance_level: "I",

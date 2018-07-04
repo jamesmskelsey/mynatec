@@ -51,6 +51,9 @@ heroku apps:create
 heroku buildpacks:add heroku/nodejs --index 1
 heroku buildpacks:add heroku/ruby --index 2
 
+to include Java RTE if needed, 
+heroku buildpacks:add https://github.com/heroku/heroku-buildpack-jvm-common.git --index 3
+
 git add .
 git commit -vam "Initial commit"
 git push heroku master
