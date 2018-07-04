@@ -32,6 +32,8 @@ module RoRReactActiveadminTemplate
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
 
+    config.action_controller.forgery_protection_origin_check = false
+
     # Middleware for ActiveAdmin
     config.middleware.use Rack::MethodOverride
     config.middleware.use ActionDispatch::Flash

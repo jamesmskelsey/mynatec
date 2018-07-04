@@ -1,10 +1,18 @@
-.App {
-  
+.container {
+  margin: 15px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.row {
+  display: flex;
+  justify-content: left;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.col {
+  margin: 5px;
+  flex-direction: row;
+  
 }
 
 .App-header {
@@ -23,7 +31,51 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.form-control {
+  margin: 10px;
+  
+}
+
+.form-control input {
+  border: 1px solid #222;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.form-control label {
+  font-size: 18px;
+  display: block;
+}
+
+.form-control select {
+  font-size: 18px;
+  width: 100%;
+}
+
+.form-control input[type=submit] {
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+button {
+  border: 1px solid #222;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+
+/* Tables */
+
+table {
+  border-collapse: collapse;
+}
+tr {
+  border: 1px solid #222;
+  vertical-align: top;
+}
+
+td {
+  padding: 5px;
+  border: 1px solid #222;
 }

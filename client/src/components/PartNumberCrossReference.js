@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 
 function PublicationTableRows(props) {
   const {references} = props;
@@ -12,6 +13,10 @@ function PublicationTableRows(props) {
       </tr>
     )
   })
+}
+
+PublicationTableRows.propTypes = {
+  references: PropTypes.arrayOf(PropTypes.object).isRequired
 }
 
 class PartNumberCrossReference extends Component {
@@ -42,13 +47,17 @@ class PartNumberCrossReference extends Component {
     const {partNumber, references} = this.state
     return (
       <div>
-        <h1>Part Number Cross Reference</h1>
+        <h2>Part Number Cross Reference</h2>
         <form onSubmit={this.handleSubmit}>
-          <label>
-            Part Number(s)<br></br>
-            <textarea value={partNumber} onChange={this.handlePartNumberChange} />
-          </label>
-          <input type="submit" value="Search" />
+          <div className="form-control">
+            <label>
+              Part Number(s)<br></br>
+              <textarea value={partNumber} onChange={this.handlePartNumberChange} />
+            </label>
+          </div>
+          <div className="form-control">
+            <input type="submit" value="Search" />
+          </div>
         </form>
         { references.length > 0
           ? <table>

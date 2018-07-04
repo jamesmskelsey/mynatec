@@ -18,6 +18,14 @@ Rails.application.routes.draw do
         get 'search'
       end
     end
+
+    resources :library do
+      resources :entries do
+        collection do
+          post 'search'
+        end
+      end
+    end
   end
 
   get '*path', to: "application#fallback_index_html", constraints: ->(request) do

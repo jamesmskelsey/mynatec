@@ -8,21 +8,23 @@ class DCSPublication extends Component {
     const {pub, excerpts} = this.props;
     const {collapsed} = this.state;
     return (
-      <li key={pub} onClick={() => this.setState({collapsed: !collapsed})}>{pub} 
-        { collapsed 
-          ? null
-          : <ul>
-            {excerpts.length 
-              ? excerpts.slice(0,10).map((e, idx) => {
+      
+      <tr key={pub} >
+        <td>{pub}</td>
+        <td onClick={() => {this.setState({collapsed: !collapsed}); console.log(this.state)}}>{excerpts.length && !this.state.collapsed
+              ? excerpts.map((e, idx) => {
                 return (
-                  <li key={idx}>{e.text}</li>
+                  <ul key={idx}>
+                    <li>{e.page_number}
+                    ...{e.text}...</li>
+                  </ul>
                 )
               })
-              : "Probably an error."
+              : `${excerpts.length} instances found.`
             }
-          </ul>
-        }
-      </li>
+
+        </td>
+      </tr>
     )
   }
 }
@@ -32,15 +34,31 @@ class DCSResults extends Component {
     const {excerpts} = this.props;
     let excerptKeys = Object.keys(excerpts)|| []
     return (
-      <ul>
+      <div>
         {excerptKeys.length
-          ? excerptKeys.map((pub) => {
-            return (
-              <DCSPublication key={pub} pub={pub} excerpts={excerpts[pub]}/>
-            )
-          })
-          : "Loading..."}
-      </ul>
+            ?
+            <div>
+              <h3>Results: </h3>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Pub Number</th>
+                    <th>Excerpts</th>
+                  </tr>
+                </thead>
+                <tbody>
+                { excerptKeys.map((pub) => {
+                    return (
+                      <DCSPublication key={pub} pub={pub} excerpts={excerpts[pub]}/>
+                    )
+                  })
+                }
+                </tbody>
+              </table>
+            </div>
+            : "Enter search criteria above."
+          }
+      </div>
     );
   }
 }
@@ -70,11 +88,21 @@ class DocumentContentSearch extends Component {
     return (
       <div>
         <form onSubmit={(e) => e.preventDefault()}>
-          <label>Search for...</label>
-          <input type="text" value={searchTerm} onChange={(e) => this.onSearchTermChange(e)} />
-          <label>Match case exactly</label>
-          <input type="checkbox" value={matchCase} onClick={() => this.onMatchCaseClick()} />
-          <button onClick={() => this.performSearch(searchTerm, matchCase)}>Search</button>
+          <fieldset>
+            <legend>Search all documents for...</legend>
+            <div className="form-control">
+
+              <label>Search for...</label>
+              <input type="text" value={searchTerm} onChange={(e) => this.onSearchTermChange(e)} />
+            </div>
+            <div className="form-control">
+              <label>Match case exactly</label>
+              <input type="checkbox" value={matchCase} onClick={() => this.onMatchCaseClick()} />
+            </div>
+          </fieldset>
+          <div className="form-control">
+            <button onClick={() => this.performSearch(searchTerm, matchCase)}>Search</button>
+          </div>
         </form>
         <DCSResults excerpts={excerpts} />
       </div>

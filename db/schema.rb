@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_06_26_000020) do
+ActiveRecord::Schema.define(version: 2018_07_04_031721) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -46,10 +46,42 @@ ActiveRecord::Schema.define(version: 2018_06_26_000020) do
     t.index ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true
   end
 
+  create_table "entries", force: :cascade do |t|
+    t.string "pub_number"
+    t.string "copy_number"
+    t.string "work_center"
+    t.string "pub_type"
+    t.string "classification"
+    t.string "title"
+    t.datetime "issue_date"
+    t.datetime "last_audit_date"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "library_id"
+  end
+
   create_table "excerpts", force: :cascade do |t|
     t.integer "publication_id"
     t.integer "page_number"
     t.text "text"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "libraries", force: :cascade do |t|
+    t.string "account"
+    t.string "maintenance_level"
+    t.string "uic"
+    t.string "attn"
+    t.string "activity"
+    t.string "address"
+    t.string "city_state_zip"
+    t.string "poc_name"
+    t.string "poc_phone"
+    t.string "poc_email"
+    t.string "lead_ctpl"
+    t.string "alt_ctpl"
+    t.string "qa_monitor"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -69,6 +101,7 @@ ActiveRecord::Schema.define(version: 2018_06_26_000020) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "path"
+    t.string "pub_number"
     t.index ["title"], name: "index_publications_on_title"
   end
 
