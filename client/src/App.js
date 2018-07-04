@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
 import Home from './components/Home.js'
 import UserInfo from './components/UserInfo.js'
 import DocumentContentSearch from './components/DocumentContentSearch.js'
@@ -26,12 +26,14 @@ class App extends Component {
             <p>You are logged in as <Link to="user_info">{userName}</Link></p>
           </header>
           <div className="container">
-            <Route exact path="/" component={Home} />
-            <Route path="/user_info" component={UserInfo} />
-            <Route path="/document_content_search" component={DocumentContentSearch} />
-            <Route path="/part_number_cross" component={PartNumberCrossReference} />
-            <Route path="/elms" render={(props) => <Elms {...props} currentUser={currentUser} /> } />
-            <Route component={NotFound} />
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route path="/user_info" component={UserInfo} />
+              <Route path="/document_content_search" component={DocumentContentSearch} />
+              <Route path="/part_number_cross" component={PartNumberCrossReference} />
+              <Route path="/elms" render={(props) => <Elms {...props} currentUser={currentUser} /> } />
+              <Route component={NotFound} />
+            </Switch>
           </div>
         </div>
       </Router>
